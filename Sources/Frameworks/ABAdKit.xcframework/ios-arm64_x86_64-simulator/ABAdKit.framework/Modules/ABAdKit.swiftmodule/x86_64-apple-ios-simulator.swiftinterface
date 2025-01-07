@@ -14,6 +14,14 @@ import _SwiftConcurrencyShims
   public static let foregroundAppOpen: ABAdKit.ABForegroundAppOpen
   public static let splashAppOpen: ABAdKit.ABSplashAppOpen
   public static let inter: ABAdKit.ABInter
+  final public var appOpenAdId: Swift.String
+  final public var bannerAdId: Swift.String
+  final public var interAdId: Swift.String
+  final public var nativeAdId: Swift.String
+  final public var isAdShow: Swift.Bool
+  final public var interAdCounter: Swift.Int
+  final public var interShowCount: Swift.Int
+  final public func startAd()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ABForegroundAppOpen : ObjectiveC.NSObject {
