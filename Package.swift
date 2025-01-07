@@ -8,7 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "ABAdMobKit",
-            targets: ["ABAdKit"]),
+            targets: ["ABAdKit", "ABAdKitTarget"]),
     ],
     dependencies: [
         .package(
@@ -18,13 +18,13 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "ABAdBinaryKit",
+            name: "ABAdKit",
             path: "Sources/Frameworks/ABAdKit.xcframework"
         ),
         .target(
-            name: "ABAdKit",
+            name: "ABAdKitTarget",
             dependencies: [
-                .target(name: "ABAdBinaryKit"),
+                .target(name: "ABAdKit"),
                 .product(name: "GoogleMobileAds", package: "swift-package-manager-google-mobile-ads")
             ],
             path: "Sources/ABAdKit"
