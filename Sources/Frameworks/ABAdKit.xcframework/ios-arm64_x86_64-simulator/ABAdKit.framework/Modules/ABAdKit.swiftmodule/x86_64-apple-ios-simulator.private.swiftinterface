@@ -1,0 +1,65 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ABAdKit
+@_exported import ABAdKit
+import GoogleMobileAds
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class ABMobileAds {
+  public static let shared: ABAdKit.ABMobileAds
+  public static let foregroundAppOpen: ABAdKit.ABForegroundAppOpen
+  public static let splashAppOpen: ABAdKit.ABSplashAppOpen
+  public static let inter: ABAdKit.ABInter
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ABForegroundAppOpen : ObjectiveC.NSObject {
+  public static let shared: ABAdKit.ABForegroundAppOpen
+  final public func tryToPresentAd()
+  @objc deinit
+}
+extension ABAdKit.ABForegroundAppOpen : GoogleMobileAds.GADFullScreenContentDelegate {
+  @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ABSplashAppOpen : ObjectiveC.NSObject {
+  public static let shared: ABAdKit.ABSplashAppOpen
+  final public func load(onLoad: @escaping () -> Swift.Void)
+  @objc deinit
+}
+extension ABAdKit.ABSplashAppOpen : GoogleMobileAds.GADFullScreenContentDelegate {
+  @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+}
+@_Concurrency.MainActor @preconcurrency public struct ABBannerView : SwiftUI.UIViewControllerRepresentable {
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> ABAdKit.ABBannerView.Coordinator
+  @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: ABAdKit.ABBannerView.Context) -> ABAdKit.BannerViewController
+  @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: ABAdKit.BannerViewController, context: ABAdKit.ABBannerView.Context)
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate {
+    @objc public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewControllerType = ABAdKit.BannerViewController
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class BannerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ABInter : ObjectiveC.NSObject {
+  public static let shared: ABAdKit.ABInter
+  final public func load(onLoad: (() -> Swift.Void)? = nil)
+  final public func presentAd(onDismiss: @escaping () -> Swift.Void)
+  @objc deinit
+}
+extension ABAdKit.ABInter : GoogleMobileAds.GADFullScreenContentDelegate {
+  @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+}
+extension ABAdKit.ABBannerView : Swift.Sendable {}
