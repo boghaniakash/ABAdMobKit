@@ -73,7 +73,6 @@ public enum BannerAdStatus {
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct ABBannerAdView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public let adFormate: ABAdKit.ABBannerAdFormate
   @SwiftUICore.State @_projectedValueProperty($adStatus) @_Concurrency.MainActor @preconcurrency public var adStatus: ABAdKit.BannerAdStatus {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -85,6 +84,7 @@ public enum BannerAdStatus {
     get
   }
   @_Concurrency.MainActor @preconcurrency public var onShow: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(adFormate: ABAdKit.ABBannerAdFormate, adStatus: ABAdKit.BannerAdStatus = .loading, onShow: (() -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }

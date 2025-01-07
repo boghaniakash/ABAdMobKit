@@ -2238,53 +2238,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "adFormate",
-            "printedName": "adFormate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ABBannerAdFormate",
-                "printedName": "ABAdKit.ABBannerAdFormate",
-                "usr": "s:7ABAdKit17ABBannerAdFormateO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:7ABAdKit14ABBannerAdViewV9adFormateAA0cdG0Ovp",
-            "mangledName": "$s7ABAdKit14ABBannerAdViewV9adFormateAA0cdG0Ovp",
-            "moduleName": "ABAdKit",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ABBannerAdFormate",
-                    "printedName": "ABAdKit.ABBannerAdFormate",
-                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:7ABAdKit14ABBannerAdViewV9adFormateAA0cdG0Ovg",
-                "mangledName": "$s7ABAdKit14ABBannerAdViewV9adFormateAA0cdG0Ovg",
-                "moduleName": "ABAdKit",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "adStatus",
             "printedName": "adStatus",
             "children": [
@@ -2593,6 +2546,68 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adFormate:adStatus:onShow:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABBannerAdView",
+                "printedName": "ABAdKit.ABBannerAdView",
+                "usr": "s:7ABAdKit14ABBannerAdViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABBannerAdFormate",
+                "printedName": "ABAdKit.ABBannerAdFormate",
+                "usr": "s:7ABAdKit17ABBannerAdFormateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerAdStatus",
+                "printedName": "ABAdKit.BannerAdStatus",
+                "hasDefaultArg": true,
+                "usr": "s:7ABAdKit14BannerAdStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7ABAdKit14ABBannerAdViewV9adFormate0F6Status6onShowAcA0cdG0O_AA06BannerdH0OyycSgtcfc",
+            "mangledName": "$s7ABAdKit14ABBannerAdViewV9adFormate0F6Status6onShowAcA0cdG0O_AA06BannerdH0OyycSgtcfc",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
