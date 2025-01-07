@@ -41,6 +41,79 @@ extension ABAdKit.ABSplashAppOpen : GoogleMobileAds.GADFullScreenContentDelegate
   @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
   @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
 }
+public enum ABBannerAdFormate {
+  case standartBanner
+  case largeBanner
+  case mediumRectangle
+  case fullBanner
+  case leaderBoard
+  case skyscrapper
+  case fluid
+  case adaptiveBanner
+  public var adSize: GoogleMobileAds.GADAdSize {
+    get
+  }
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+  public static func == (a: ABAdKit.ABBannerAdFormate, b: ABAdKit.ABBannerAdFormate) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum BannerAdStatus {
+  case loading
+  case success
+  case failure
+  public static func == (a: ABAdKit.BannerAdStatus, b: ABAdKit.BannerAdStatus) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_Concurrency.MainActor @preconcurrency public struct ABBannerAdView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public let adFormate: ABAdKit.ABBannerAdFormate
+  @SwiftUICore.State @_projectedValueProperty($adStatus) @_Concurrency.MainActor @preconcurrency public var adStatus: ABAdKit.BannerAdStatus {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor @preconcurrency public var $adStatus: SwiftUICore.Binding<ABAdKit.BannerAdStatus> {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var onShow: (() -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s7ABAdKit14ABBannerAdViewV4bodyQrvp", 0) __
+}
+@_Concurrency.MainActor @preconcurrency public struct BannerView : SwiftUI.UIViewControllerRepresentable {
+  @_Concurrency.MainActor @preconcurrency public let adSize: GoogleMobileAds.GADAdSize
+  @SwiftUICore.Binding @_projectedValueProperty($adStatus) @_Concurrency.MainActor @preconcurrency public var adStatus: ABAdKit.BannerAdStatus {
+    get
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating set
+    @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+    nonmutating _modify
+  }
+  @_Concurrency.MainActor @preconcurrency public var $adStatus: SwiftUICore.Binding<ABAdKit.BannerAdStatus> {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: ABAdKit.BannerView.Context) -> some UIKit.UIViewController
+  
+  @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: @_opaqueReturnTypeOf("$s7ABAdKit10BannerViewV20makeUIViewController7contextQr7SwiftUI0fG20RepresentableContextVyACG_tF", 0) __, context: ABAdKit.BannerView.Context)
+  @_Concurrency.MainActor @preconcurrency public func makeCoordinator() -> ABAdKit.BannerView.Coordinator
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, GoogleMobileAds.GADBannerViewDelegate {
+    @objc public func bannerViewDidReceiveAd(_ bannerView: GoogleMobileAds.GADBannerView)
+    @objc public func bannerView(_ bannerView: GoogleMobileAds.GADBannerView, didFailToReceiveAdWithError error: any Swift.Error)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewControllerType = @_opaqueReturnTypeOf("$s7ABAdKit10BannerViewV20makeUIViewController7contextQr7SwiftUI0fG20RepresentableContextVyACG_tF", 0) __
+}
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ABInter : ObjectiveC.NSObject {
   public static let shared: ABAdKit.ABInter
   final public func load(_ onLoad: (() -> Swift.Void)? = nil)
@@ -51,3 +124,9 @@ extension ABAdKit.ABInter : GoogleMobileAds.GADFullScreenContentDelegate {
   @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
   @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
 }
+extension ABAdKit.ABBannerAdFormate : Swift.Equatable {}
+extension ABAdKit.ABBannerAdFormate : Swift.Hashable {}
+extension ABAdKit.BannerAdStatus : Swift.Equatable {}
+extension ABAdKit.BannerAdStatus : Swift.Hashable {}
+extension ABAdKit.ABBannerAdView : Swift.Sendable {}
+extension ABAdKit.BannerView : Swift.Sendable {}

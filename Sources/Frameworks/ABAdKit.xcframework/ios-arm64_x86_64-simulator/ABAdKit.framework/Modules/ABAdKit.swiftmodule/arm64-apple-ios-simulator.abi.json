@@ -1448,6 +1448,773 @@
         "moduleName": "ABAdKit"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ABBannerAdFormate",
+        "printedName": "ABBannerAdFormate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "standartBanner",
+            "printedName": "standartBanner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.ABBannerAdFormate.Type) -> ABAdKit.ABBannerAdFormate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.ABBannerAdFormate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABBannerAdFormate",
+                        "printedName": "ABAdKit.ABBannerAdFormate",
+                        "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO14standartBanneryA2CmF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO14standartBanneryA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "largeBanner",
+            "printedName": "largeBanner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.ABBannerAdFormate.Type) -> ABAdKit.ABBannerAdFormate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.ABBannerAdFormate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABBannerAdFormate",
+                        "printedName": "ABAdKit.ABBannerAdFormate",
+                        "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO11largeBanneryA2CmF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO11largeBanneryA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "mediumRectangle",
+            "printedName": "mediumRectangle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.ABBannerAdFormate.Type) -> ABAdKit.ABBannerAdFormate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.ABBannerAdFormate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABBannerAdFormate",
+                        "printedName": "ABAdKit.ABBannerAdFormate",
+                        "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO15mediumRectangleyA2CmF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO15mediumRectangleyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "fullBanner",
+            "printedName": "fullBanner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.ABBannerAdFormate.Type) -> ABAdKit.ABBannerAdFormate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.ABBannerAdFormate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABBannerAdFormate",
+                        "printedName": "ABAdKit.ABBannerAdFormate",
+                        "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO10fullBanneryA2CmF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO10fullBanneryA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "leaderBoard",
+            "printedName": "leaderBoard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.ABBannerAdFormate.Type) -> ABAdKit.ABBannerAdFormate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.ABBannerAdFormate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABBannerAdFormate",
+                        "printedName": "ABAdKit.ABBannerAdFormate",
+                        "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO11leaderBoardyA2CmF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO11leaderBoardyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "skyscrapper",
+            "printedName": "skyscrapper",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.ABBannerAdFormate.Type) -> ABAdKit.ABBannerAdFormate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.ABBannerAdFormate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABBannerAdFormate",
+                        "printedName": "ABAdKit.ABBannerAdFormate",
+                        "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO11skyscrapperyA2CmF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO11skyscrapperyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "fluid",
+            "printedName": "fluid",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.ABBannerAdFormate.Type) -> ABAdKit.ABBannerAdFormate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.ABBannerAdFormate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABBannerAdFormate",
+                        "printedName": "ABAdKit.ABBannerAdFormate",
+                        "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO5fluidyA2CmF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO5fluidyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "adaptiveBanner",
+            "printedName": "adaptiveBanner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.ABBannerAdFormate.Type) -> ABAdKit.ABBannerAdFormate",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.ABBannerAdFormate.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABBannerAdFormate",
+                        "printedName": "ABAdKit.ABBannerAdFormate",
+                        "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO14adaptiveBanneryA2CmF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO14adaptiveBanneryA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "adSize",
+            "printedName": "adSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdSize",
+                "printedName": "GoogleMobileAds.GADAdSize",
+                "usr": "c:@S@GADAdSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO6adSizeSo05GADAdG0Vvp",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO6adSizeSo05GADAdG0Vvp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdSize",
+                    "printedName": "GoogleMobileAds.GADAdSize",
+                    "usr": "c:@S@GADAdSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit17ABBannerAdFormateO6adSizeSo05GADAdG0Vvg",
+                "mangledName": "$s7ABAdKit17ABBannerAdFormateO6adSizeSo05GADAdG0Vvg",
+                "moduleName": "ABAdKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGSize",
+                "printedName": "CoreFoundation.CGSize",
+                "usr": "c:@S@CGSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO4sizeSo6CGSizeVvp",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO4sizeSo6CGSizeVvp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGSize",
+                    "printedName": "CoreFoundation.CGSize",
+                    "usr": "c:@S@CGSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit17ABBannerAdFormateO4sizeSo6CGSizeVvg",
+                "mangledName": "$s7ABAdKit17ABBannerAdFormateO4sizeSo6CGSizeVvg",
+                "moduleName": "ABAdKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABBannerAdFormate",
+                "printedName": "ABAdKit.ABBannerAdFormate",
+                "usr": "s:7ABAdKit17ABBannerAdFormateO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABBannerAdFormate",
+                "printedName": "ABAdKit.ABBannerAdFormate",
+                "usr": "s:7ABAdKit17ABBannerAdFormateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO2eeoiySbAC_ACtFZ",
+            "moduleName": "ABAdKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO9hashValueSivp",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO9hashValueSivp",
+            "moduleName": "ABAdKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit17ABBannerAdFormateO9hashValueSivg",
+                "mangledName": "$s7ABAdKit17ABBannerAdFormateO9hashValueSivg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit17ABBannerAdFormateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7ABAdKit17ABBannerAdFormateO4hash4intoys6HasherVz_tF",
+            "moduleName": "ABAdKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7ABAdKit17ABBannerAdFormateO",
+        "mangledName": "$s7ABAdKit17ABBannerAdFormateO",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BannerAdStatus",
+        "printedName": "BannerAdStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "loading",
+            "printedName": "loading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.BannerAdStatus.Type) -> ABAdKit.BannerAdStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.BannerAdStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerAdStatus",
+                        "printedName": "ABAdKit.BannerAdStatus",
+                        "usr": "s:7ABAdKit14BannerAdStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit14BannerAdStatusO7loadingyA2CmF",
+            "mangledName": "$s7ABAdKit14BannerAdStatusO7loadingyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.BannerAdStatus.Type) -> ABAdKit.BannerAdStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.BannerAdStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerAdStatus",
+                        "printedName": "ABAdKit.BannerAdStatus",
+                        "usr": "s:7ABAdKit14BannerAdStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit14BannerAdStatusO7successyA2CmF",
+            "mangledName": "$s7ABAdKit14BannerAdStatusO7successyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.BannerAdStatus.Type) -> ABAdKit.BannerAdStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.BannerAdStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerAdStatus",
+                        "printedName": "ABAdKit.BannerAdStatus",
+                        "usr": "s:7ABAdKit14BannerAdStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit14BannerAdStatusO7failureyA2CmF",
+            "mangledName": "$s7ABAdKit14BannerAdStatusO7failureyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerAdStatus",
+                "printedName": "ABAdKit.BannerAdStatus",
+                "usr": "s:7ABAdKit14BannerAdStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BannerAdStatus",
+                "printedName": "ABAdKit.BannerAdStatus",
+                "usr": "s:7ABAdKit14BannerAdStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit14BannerAdStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7ABAdKit14BannerAdStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "ABAdKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit14BannerAdStatusO9hashValueSivp",
+            "mangledName": "$s7ABAdKit14BannerAdStatusO9hashValueSivp",
+            "moduleName": "ABAdKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14BannerAdStatusO9hashValueSivg",
+                "mangledName": "$s7ABAdKit14BannerAdStatusO9hashValueSivg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit14BannerAdStatusO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7ABAdKit14BannerAdStatusO4hash4intoys6HasherVz_tF",
+            "moduleName": "ABAdKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7ABAdKit14BannerAdStatusO",
+        "mangledName": "$s7ABAdKit14BannerAdStatusO",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
@@ -1463,6 +2230,1072 @@
         "printedName": "GoogleMobileAds",
         "declKind": "Import",
         "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABBannerAdView",
+        "printedName": "ABBannerAdView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adFormate",
+            "printedName": "adFormate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABBannerAdFormate",
+                "printedName": "ABAdKit.ABBannerAdFormate",
+                "usr": "s:7ABAdKit17ABBannerAdFormateO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit14ABBannerAdViewV9adFormateAA0cdG0Ovp",
+            "mangledName": "$s7ABAdKit14ABBannerAdViewV9adFormateAA0cdG0Ovp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABBannerAdFormate",
+                    "printedName": "ABAdKit.ABBannerAdFormate",
+                    "usr": "s:7ABAdKit17ABBannerAdFormateO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV9adFormateAA0cdG0Ovg",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV9adFormateAA0cdG0Ovg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adStatus",
+            "printedName": "adStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BannerAdStatus",
+                "printedName": "ABAdKit.BannerAdStatus",
+                "usr": "s:7ABAdKit14BannerAdStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit14ABBannerAdViewV8adStatusAA06BannerdG0Ovp",
+            "mangledName": "$s7ABAdKit14ABBannerAdViewV8adStatusAA06BannerdG0Ovp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV8adStatusAA06BannerdG0Ovg",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV8adStatusAA06BannerdG0Ovg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV8adStatusAA06BannerdG0Ovs",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV8adStatusAA06BannerdG0Ovs",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV8adStatusAA06BannerdG0OvM",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV8adStatusAA06BannerdG0OvM",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$adStatus",
+            "printedName": "$adStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<ABAdKit.BannerAdStatus>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit14ABBannerAdViewV9$adStatus7SwiftUI7BindingVyAA06BannerdG0OGvp",
+            "mangledName": "$s7ABAdKit14ABBannerAdViewV9$adStatus7SwiftUI7BindingVyAA06BannerdG0OGvp",
+            "moduleName": "ABAdKit",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<ABAdKit.BannerAdStatus>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerAdStatus",
+                        "printedName": "ABAdKit.BannerAdStatus",
+                        "usr": "s:7ABAdKit14BannerAdStatusO"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV9$adStatus7SwiftUI7BindingVyAA06BannerdG0OGvg",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV9$adStatus7SwiftUI7BindingVyAA06BannerdG0OGvg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onShow",
+            "printedName": "onShow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit14ABBannerAdViewV6onShowyycSgvp",
+            "mangledName": "$s7ABAdKit14ABBannerAdViewV6onShowyycSgvp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV6onShowyycSgvg",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV6onShowyycSgvg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV6onShowyycSgvs",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV6onShowyycSgvs",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV6onShowyycSgvM",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV6onShowyycSgvM",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit14ABBannerAdViewV4bodyQrvp",
+            "mangledName": "$s7ABAdKit14ABBannerAdViewV4bodyQrvp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit14ABBannerAdViewV4bodyQrvg",
+                "mangledName": "$s7ABAdKit14ABBannerAdViewV4bodyQrvg",
+                "moduleName": "ABAdKit",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7ABAdKit14ABBannerAdViewV",
+        "mangledName": "$s7ABAdKit14ABBannerAdViewV",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BannerView",
+        "printedName": "BannerView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adSize",
+            "printedName": "adSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GADAdSize",
+                "printedName": "GoogleMobileAds.GADAdSize",
+                "usr": "c:@S@GADAdSize"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit10BannerViewV6adSizeSo05GADAdF0Vvp",
+            "mangledName": "$s7ABAdKit10BannerViewV6adSizeSo05GADAdF0Vvp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADAdSize",
+                    "printedName": "GoogleMobileAds.GADAdSize",
+                    "usr": "c:@S@GADAdSize"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit10BannerViewV6adSizeSo05GADAdF0Vvg",
+                "mangledName": "$s7ABAdKit10BannerViewV6adSizeSo05GADAdF0Vvg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adStatus",
+            "printedName": "adStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BannerAdStatus",
+                "printedName": "ABAdKit.BannerAdStatus",
+                "usr": "s:7ABAdKit14BannerAdStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit10BannerViewV8adStatusAA0c2AdF0Ovp",
+            "mangledName": "$s7ABAdKit10BannerViewV8adStatusAA0c2AdF0Ovp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit10BannerViewV8adStatusAA0c2AdF0Ovg",
+                "mangledName": "$s7ABAdKit10BannerViewV8adStatusAA0c2AdF0Ovg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit10BannerViewV8adStatusAA0c2AdF0Ovs",
+                "mangledName": "$s7ABAdKit10BannerViewV8adStatusAA0c2AdF0Ovs",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit10BannerViewV8adStatusAA0c2AdF0OvM",
+                "mangledName": "$s7ABAdKit10BannerViewV8adStatusAA0c2AdF0OvM",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "intro_Macosx": "10.15",
+                "intro_iOS": "13.0",
+                "intro_tvOS": "13.0",
+                "intro_watchOS": "6.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$adStatus",
+            "printedName": "$adStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<ABAdKit.BannerAdStatus>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerAdStatus",
+                    "printedName": "ABAdKit.BannerAdStatus",
+                    "usr": "s:7ABAdKit14BannerAdStatusO"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit10BannerViewV9$adStatus7SwiftUI7BindingVyAA0c2AdF0OGvp",
+            "mangledName": "$s7ABAdKit10BannerViewV9$adStatus7SwiftUI7BindingVyAA0c2AdF0OGvp",
+            "moduleName": "ABAdKit",
+            "implicit": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<ABAdKit.BannerAdStatus>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BannerAdStatus",
+                        "printedName": "ABAdKit.BannerAdStatus",
+                        "usr": "s:7ABAdKit14BannerAdStatusO"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit10BannerViewV9$adStatus7SwiftUI7BindingVyAA0c2AdF0OGvg",
+                "mangledName": "$s7ABAdKit10BannerViewV9$adStatus7SwiftUI7BindingVyAA0c2AdF0OGvg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some UIKit.UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<ABAdKit.BannerView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerView",
+                    "printedName": "ABAdKit.BannerView",
+                    "usr": "s:7ABAdKit10BannerViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit10BannerViewV20makeUIViewController7contextQr7SwiftUI0fG20RepresentableContextVyACG_tF",
+            "mangledName": "$s7ABAdKit10BannerViewV20makeUIViewController7contextQr7SwiftUI0fG20RepresentableContextVyACG_tF",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some UIKit.UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<ABAdKit.BannerView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BannerView",
+                    "printedName": "ABAdKit.BannerView",
+                    "usr": "s:7ABAdKit10BannerViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit10BannerViewV22updateUIViewController_7contextyAC04makefG0AEQr7SwiftUI0fG20RepresentableContextVyACG_tFQOy_Qo__AJtF",
+            "mangledName": "$s7ABAdKit10BannerViewV22updateUIViewController_7contextyAC04makefG0AEQr7SwiftUI0fG20RepresentableContextVyACG_tFQOy_Qo__AJtF",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "ABAdKit.BannerView.Coordinator",
+                "usr": "s:7ABAdKit10BannerViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit10BannerViewV15makeCoordinatorAC0F0CyF",
+            "mangledName": "$s7ABAdKit10BannerViewV15makeCoordinatorAC0F0CyF",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Function",
+                "name": "bannerViewDidReceiveAd",
+                "printedName": "bannerViewDidReceiveAd(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADBannerView",
+                    "printedName": "GoogleMobileAds.GADBannerView",
+                    "usr": "c:objc(cs)GADBannerView"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7ABAdKit10BannerViewV11CoordinatorC06bannerD12DidReceiveAdyySo09GADBannerD0CF",
+                "mangledName": "$s7ABAdKit10BannerViewV11CoordinatorC06bannerD12DidReceiveAdyySo09GADBannerD0CF",
+                "moduleName": "ABAdKit",
+                "objc_name": "bannerViewDidReceiveAd:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "bannerView",
+                "printedName": "bannerView(_:didFailToReceiveAdWithError:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GADBannerView",
+                    "printedName": "GoogleMobileAds.GADBannerView",
+                    "usr": "c:objc(cs)GADBannerView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:7ABAdKit10BannerViewV11CoordinatorC06bannerD0_27didFailToReceiveAdWithErrorySo09GADBannerD0C_s0M0_ptF",
+                "mangledName": "$s7ABAdKit10BannerViewV11CoordinatorC06bannerD0_27didFailToReceiveAdWithErrorySo09GADBannerD0C_s0M0_ptF",
+                "moduleName": "ABAdKit",
+                "objc_name": "bannerView:didFailToReceiveAdWithError:",
+                "declAttributes": [
+                  "ObjC",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "ABAdKit.BannerView.Coordinator",
+                    "usr": "s:7ABAdKit10BannerViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:7ABAdKit10BannerViewV11CoordinatorCAEycfc",
+                "mangledName": "$s7ABAdKit10BannerViewV11CoordinatorCAEycfc",
+                "moduleName": "ABAdKit",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:7ABAdKit10BannerViewV11CoordinatorC",
+            "mangledName": "$s7ABAdKit10BannerViewV11CoordinatorC",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "hasMissingDesignatedInitializers": true,
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7ABAdKit10BannerViewV",
+        "mangledName": "$s7ABAdKit10BannerViewV",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some UIKit.UIViewController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "ABAdKit.BannerView.Coordinator",
+                    "usr": "s:7ABAdKit10BannerViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
       },
       {
         "kind": "Import",
