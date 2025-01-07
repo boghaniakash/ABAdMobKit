@@ -11,6 +11,7 @@
         "declKind": "Import",
         "moduleName": "ABAdKit",
         "declAttributes": [
+          "Exported",
           "RawDocComment"
         ]
       },
@@ -1675,49 +1676,49 @@
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 435,
       "length": 40,
       "value": "\"ca-app-pub-3940256099942544\/5575463023\""
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "StringLiteral",
-      "offset": 494,
+      "offset": 505,
       "length": 40,
       "value": "\"ca-app-pub-3940256099942544\/2435281174\""
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "StringLiteral",
-      "offset": 563,
+      "offset": 574,
       "length": 40,
       "value": "\"ca-app-pub-3940256099942544\/4411468910\""
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "StringLiteral",
-      "offset": 633,
+      "offset": 644,
       "length": 40,
       "value": "\"ca-app-pub-3940256099942544\/2521693316\""
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "BooleanLiteral",
-      "offset": 704,
+      "offset": 715,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "IntegerLiteral",
-      "offset": 744,
+      "offset": 755,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "IntegerLiteral",
-      "offset": 776,
+      "offset": 787,
       "length": 1,
       "value": "1"
     }
