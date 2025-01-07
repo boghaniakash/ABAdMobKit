@@ -11,7 +11,10 @@ let package = Package(
             targets: ["ABAdKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", .upToNextMajor(from: "11.13.0"))
+        .package(
+            url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git",
+            .upToNextMajor(from: "11.13.0")
+        )
     ],
     targets: [
         .binaryTarget(

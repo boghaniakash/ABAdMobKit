@@ -11,7 +11,6 @@
         "declKind": "Import",
         "moduleName": "ABAdKit",
         "declAttributes": [
-          "Exported",
           "RawDocComment"
         ]
       },
@@ -553,7 +552,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(onLoad:)",
+            "printedName": "load(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -579,8 +578,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ABAdKit15ABSplashAppOpenC4load6onLoadyyyc_tF",
-            "mangledName": "$s7ABAdKit15ABSplashAppOpenC4load6onLoadyyyc_tF",
+            "usr": "s:7ABAdKit15ABSplashAppOpenC4loadyyyycF",
+            "mangledName": "$s7ABAdKit15ABSplashAppOpenC4loadyyyycF",
             "moduleName": "ABAdKit",
             "declAttributes": [
               "Final",
@@ -1438,7 +1437,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(onLoad:)",
+            "printedName": "load(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1473,8 +1472,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ABAdKit7ABInterC4load6onLoadyyycSg_tF",
-            "mangledName": "$s7ABAdKit7ABInterC4load6onLoadyyycSg_tF",
+            "usr": "s:7ABAdKit7ABInterC4loadyyyycSgF",
+            "mangledName": "$s7ABAdKit7ABInterC4loadyyyycSgF",
             "moduleName": "ABAdKit",
             "declAttributes": [
               "Final",
@@ -1486,7 +1485,7 @@
           {
             "kind": "Function",
             "name": "presentAd",
-            "printedName": "presentAd(onDismiss:)",
+            "printedName": "presentAd(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1512,8 +1511,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ABAdKit7ABInterC9presentAd9onDismissyyyc_tF",
-            "mangledName": "$s7ABAdKit7ABInterC9presentAd9onDismissyyyc_tF",
+            "usr": "s:7ABAdKit7ABInterC9presentAdyyyycF",
+            "mangledName": "$s7ABAdKit7ABInterC9presentAdyyyycF",
             "moduleName": "ABAdKit",
             "declAttributes": [
               "Final",
@@ -1676,49 +1675,49 @@
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "StringLiteral",
-      "offset": 435,
+      "offset": 424,
       "length": 40,
       "value": "\"ca-app-pub-3940256099942544\/5575463023\""
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "StringLiteral",
-      "offset": 505,
+      "offset": 494,
       "length": 40,
       "value": "\"ca-app-pub-3940256099942544\/2435281174\""
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 563,
       "length": 40,
       "value": "\"ca-app-pub-3940256099942544\/4411468910\""
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "StringLiteral",
-      "offset": 644,
+      "offset": 633,
       "length": 40,
       "value": "\"ca-app-pub-3940256099942544\/2521693316\""
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "BooleanLiteral",
-      "offset": 715,
+      "offset": 704,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "IntegerLiteral",
-      "offset": 755,
+      "offset": 744,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
       "kind": "IntegerLiteral",
-      "offset": 787,
+      "offset": 776,
       "length": 1,
       "value": "1"
     }

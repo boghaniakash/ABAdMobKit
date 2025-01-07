@@ -2,7 +2,7 @@
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ABAdKit
 @_exported import ABAdKit
-@_exported import GoogleMobileAds
+import GoogleMobileAds
 import Swift
 import SwiftUI
 import UIKit
@@ -27,7 +27,7 @@ extension ABAdKit.ABForegroundAppOpen : GoogleMobileAds.GADFullScreenContentDele
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ABSplashAppOpen : ObjectiveC.NSObject {
   public static let shared: ABAdKit.ABSplashAppOpen
-  final public func load(onLoad: @escaping () -> Swift.Void)
+  final public func load(_ onLoad: @escaping () -> Swift.Void)
   @objc deinit
 }
 extension ABAdKit.ABSplashAppOpen : GoogleMobileAds.GADFullScreenContentDelegate {
@@ -54,8 +54,8 @@ extension ABAdKit.ABSplashAppOpen : GoogleMobileAds.GADFullScreenContentDelegate
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ABInter : ObjectiveC.NSObject {
   public static let shared: ABAdKit.ABInter
-  final public func load(onLoad: (() -> Swift.Void)? = nil)
-  final public func presentAd(onDismiss: @escaping () -> Swift.Void)
+  final public func load(_ onLoad: (() -> Swift.Void)? = nil)
+  final public func presentAd(_ onDismiss: @escaping () -> Swift.Void)
   @objc deinit
 }
 extension ABAdKit.ABInter : GoogleMobileAds.GADFullScreenContentDelegate {
