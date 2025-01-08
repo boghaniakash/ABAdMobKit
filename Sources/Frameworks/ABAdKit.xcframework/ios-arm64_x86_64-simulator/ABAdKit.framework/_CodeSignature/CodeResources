@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ABNativeView.nib</key>
+		<data>
+		CloYu8hCOE3KR3PxLEHnnNZGJyA=
+		</data>
 		<key>Headers/ABAdKit.h</key>
 		<data>
 		DNJ65ieptJfQ8XSitti4/luEyAo=
@@ -14,11 +18,11 @@
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		4X4BNA18v2CCsGvgj14qQM/xE7w=
+		Us76yfGwSrIcME+ca3+MGw0hnws=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		z8EU249wZmH0NmHfa235DN26ySA=
+		LxiCBqwy44R+Hct8KUcgBtPyVf8=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +30,19 @@
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		z8EU249wZmH0NmHfa235DN26ySA=
+		LxiCBqwy44R+Hct8KUcgBtPyVf8=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		r+ijvNZ6ydXvcCN8RmXVcf6y3Cw=
+		eirgsPYfhZu6EAQ90shVE1JnFgM=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		4X4BNA18v2CCsGvgj14qQM/xE7w=
+		Us76yfGwSrIcME+ca3+MGw0hnws=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nPgL4Wnba23XIULT2N6Z8Kkn22A=
+		np1pfShx6b7bHfIj43EmiQchmSQ=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,23 +50,26 @@
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nPgL4Wnba23XIULT2N6Z8Kkn22A=
+		np1pfShx6b7bHfIj43EmiQchmSQ=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2UHx+kl9Aqu95uGYKvYCEZNpTig=
+		kFijQnFJQsNC9YSnB0PrptnVN8Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		ukJ00Yy4BT6wS3l328zg7JzDGiY=
 		</data>
-		<key>NativAdView.nib</key>
-		<data>
-		CloYu8hCOE3KR3PxLEHnnNZGJyA=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ABNativeView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rSPz8J7FIKoAQ/Ix4/9Ec/rSzzK0q1N02hfZsMoZsNE=
+			</data>
+		</dict>
 		<key>Headers/ABAdKit.h</key>
 		<dict>
 			<key>hash2</key>
@@ -74,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qb+DBetTxjAtH9AiR03LbWER4VK4CXPTMVgdhyi3HIc=
+			K77S7du1mxh+TS4eCUmJRyPKnIFOWdY8EGD8sZMtnCg=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rVAJIl/1xrrcZI7zuPiZ5p3XNlFTedgyGlHGulK3Hsc=
+			cLCl4XmJcJl4jLL4ZnGdSAiyPgQu/xghESpzLYYXdAk=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -95,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rVAJIl/1xrrcZI7zuPiZ5p3XNlFTedgyGlHGulK3Hsc=
+			cLCl4XmJcJl4jLL4ZnGdSAiyPgQu/xghESpzLYYXdAk=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/+iU0+r7p8fAvsIlF3pSOdoRbqi+mp5yfGPY7Sc77I=
+			AB+00GHTq/RBokqHbzALgBZpWwOSFjYoFwZg+2v+gI4=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qb+DBetTxjAtH9AiR03LbWER4VK4CXPTMVgdhyi3HIc=
+			K77S7du1mxh+TS4eCUmJRyPKnIFOWdY8EGD8sZMtnCg=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			URFygxBcE7hfKNYnga/fS/pL1aJXebbg/8Y/qEYx+Tw=
+			QzpzsHhsgOo4fc6IqGchXwgIfW3heulWzpMjaP2BXFg=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -130,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			URFygxBcE7hfKNYnga/fS/pL1aJXebbg/8Y/qEYx+Tw=
+			QzpzsHhsgOo4fc6IqGchXwgIfW3heulWzpMjaP2BXFg=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wL7uOV4WRWd35VEiWPV7iZBr21QBcSxfw5Ua/i/svAI=
+			P2PIfpyV0w4Z0cJQy1ju5ba1iCWyG/Ei5qEeP5niHsQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -145,13 +152,6 @@
 			<key>hash2</key>
 			<data>
 			O1/MneDgP7HDfxQ+mFnvubKFZWftc/IIUGbXBQOD9Pw=
-			</data>
-		</dict>
-		<key>NativAdView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rSPz8J7FIKoAQ/Ix4/9Ec/rSzzK0q1N02hfZsMoZsNE=
 			</data>
 		</dict>
 	</dict>
