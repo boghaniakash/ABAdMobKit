@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>ABImageHeaderNativeView.nib</key>
+		<data>
+		m39Anp9bTO5f/aXyhex1tz5e+Kk=
+		</data>
 		<key>ABNativeView.nib</key>
 		<data>
-		CloYu8hCOE3KR3PxLEHnnNZGJyA=
+		Eb0hCfHGd/96jvomeKcxPXyDgQA=
+		</data>
+		<key>ABSmallNativeView.nib</key>
+		<data>
+		yNhz+y8edcU7Aedsi0H7y2E6nQ8=
 		</data>
 		<key>Headers/ABAdKit.h</key>
 		<data>
@@ -18,11 +26,11 @@
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		uXVsmbeGbytrbXAWcahYXMraDF8=
+		DgQF2WU0rcqzxyuKYT01Qno7O6k=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4XCuBuYZBeWY69ewP3LPAz2LkzI=
+		q5fCayiEBjQKkK3njLCrNLhlO3Q=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +38,19 @@
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4XCuBuYZBeWY69ewP3LPAz2LkzI=
+		q5fCayiEBjQKkK3njLCrNLhlO3Q=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RYi72z314ox9wxcUo3BD6F3KltA=
+		AvtuIL9TTmi0m/7tOSbLHaaSjyw=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		uXVsmbeGbytrbXAWcahYXMraDF8=
+		DgQF2WU0rcqzxyuKYT01Qno7O6k=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		d9qCU1jUWCPVS8x8CFiGjsllDD8=
+		SkOd1u+umw+A7mtFdskFvuH5JmE=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +58,11 @@
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		d9qCU1jUWCPVS8x8CFiGjsllDD8=
+		SkOd1u+umw+A7mtFdskFvuH5JmE=
 		</data>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		snMURGlfErE+z0/a9quoJeGn510=
+		WcmFEH1MqAlqg2IhO0LdVlNvccM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,11 +71,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ABImageHeaderNativeView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KknyyiMmPtLy9c0PBqhtcf2kY6LwBXD2UeXr9rHxrRI=
+			</data>
+		</dict>
 		<key>ABNativeView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rSPz8J7FIKoAQ/Ix4/9Ec/rSzzK0q1N02hfZsMoZsNE=
+			rGVmSzCkvEo8znN2ryTSV4CTEi66Y1VmYqBWLB7Z0ig=
+			</data>
+		</dict>
+		<key>ABSmallNativeView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QCF/uqAsuTUppMf30nWad/ZkJ8zMKpFm0eypZV2IIRE=
 			</data>
 		</dict>
 		<key>Headers/ABAdKit.h</key>
@@ -81,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbnICSRaEB1nD/0l6jgMVgT/4k14tfAmmZr0pagaJag=
+			lEVifrt+bVD7IHBaGj3ALZ4/EEdujyew8a2KHyiZCaU=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			329wCHi1RO1H4G9TX9aOh8FclTatVVKxyEDmUA7qhBY=
+			uNQ3uGja6C83XJujAeTt3Ipkm56ioav7HjasixAEDWY=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			329wCHi1RO1H4G9TX9aOh8FclTatVVKxyEDmUA7qhBY=
+			uNQ3uGja6C83XJujAeTt3Ipkm56ioav7HjasixAEDWY=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ce4btHh2oANrsBOPC6mSSKd6hJOK8kR4aTSndzU0Qyw=
+			TR9pxQ7XnbFxG2faDPlzu+qf6iFysHmQf0mU8pvTmg0=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbnICSRaEB1nD/0l6jgMVgT/4k14tfAmmZr0pagaJag=
+			lEVifrt+bVD7IHBaGj3ALZ4/EEdujyew8a2KHyiZCaU=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DtDcLjm0kGjf5rVMuJzeVSNkjJPUkQLboxUvLHRNrbo=
+			p7LrySvas6uNtYLChEZaXAE4XPNdmlmOu4tlh/+zqPM=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DtDcLjm0kGjf5rVMuJzeVSNkjJPUkQLboxUvLHRNrbo=
+			p7LrySvas6uNtYLChEZaXAE4XPNdmlmOu4tlh/+zqPM=
 			</data>
 		</dict>
 		<key>Modules/ABAdKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fLkwe4DxsGMvwzST2ItBzp3w79hLR3denfcmskGjlXM=
+			ROzCd0A9I/eEeCf8ScuPXKik/EheuQy2PA7NH7pqBfE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

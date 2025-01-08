@@ -106,8 +106,16 @@ extension ABAdKit.ABInter : GoogleMobileAds.GADFullScreenContentDelegate {
   final public func startAd()
   @objc deinit
 }
+public enum NativeAdType {
+  case small, large, imageHeader
+  public static func == (a: ABAdKit.NativeAdType, b: ABAdKit.NativeAdType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 @_Concurrency.MainActor @preconcurrency public struct ABNativeAdView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(nativeAdViewModel: ABAdKit.ABNativeAdViewModel, isAnimationOn: Swift.Bool = true, adHeight: CoreFoundation.CGFloat = 0)
+  @_Concurrency.MainActor @preconcurrency public init(nativeAdViewModel: ABAdKit.ABNativeAdViewModel, isAnimationOn: Swift.Bool = true, adType: ABAdKit.NativeAdType = .small, adHeight: CoreFoundation.CGFloat = 0)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -148,4 +156,6 @@ extension ABAdKit.ABBannerAdFormate : Swift.Hashable {}
 extension ABAdKit.BannerAdStatus : Swift.Equatable {}
 extension ABAdKit.BannerAdStatus : Swift.Hashable {}
 extension ABAdKit.ABBannerAdView : Swift.Sendable {}
+extension ABAdKit.NativeAdType : Swift.Equatable {}
+extension ABAdKit.NativeAdType : Swift.Hashable {}
 extension ABAdKit.ABNativeAdView : Swift.Sendable {}

@@ -3324,13 +3324,264 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NativeAdType",
+        "printedName": "NativeAdType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "small",
+            "printedName": "small",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.NativeAdType.Type) -> ABAdKit.NativeAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAdType",
+                    "printedName": "ABAdKit.NativeAdType",
+                    "usr": "s:7ABAdKit12NativeAdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.NativeAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAdType",
+                        "printedName": "ABAdKit.NativeAdType",
+                        "usr": "s:7ABAdKit12NativeAdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit12NativeAdTypeO5smallyA2CmF",
+            "mangledName": "$s7ABAdKit12NativeAdTypeO5smallyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "large",
+            "printedName": "large",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.NativeAdType.Type) -> ABAdKit.NativeAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAdType",
+                    "printedName": "ABAdKit.NativeAdType",
+                    "usr": "s:7ABAdKit12NativeAdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.NativeAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAdType",
+                        "printedName": "ABAdKit.NativeAdType",
+                        "usr": "s:7ABAdKit12NativeAdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit12NativeAdTypeO5largeyA2CmF",
+            "mangledName": "$s7ABAdKit12NativeAdTypeO5largeyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Var",
+            "name": "imageHeader",
+            "printedName": "imageHeader",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ABAdKit.NativeAdType.Type) -> ABAdKit.NativeAdType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAdType",
+                    "printedName": "ABAdKit.NativeAdType",
+                    "usr": "s:7ABAdKit12NativeAdTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ABAdKit.NativeAdType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAdType",
+                        "printedName": "ABAdKit.NativeAdType",
+                        "usr": "s:7ABAdKit12NativeAdTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7ABAdKit12NativeAdTypeO11imageHeaderyA2CmF",
+            "mangledName": "$s7ABAdKit12NativeAdTypeO11imageHeaderyA2CmF",
+            "moduleName": "ABAdKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdType",
+                "printedName": "ABAdKit.NativeAdType",
+                "usr": "s:7ABAdKit12NativeAdTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdType",
+                "printedName": "ABAdKit.NativeAdType",
+                "usr": "s:7ABAdKit12NativeAdTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit12NativeAdTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s7ABAdKit12NativeAdTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "ABAdKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit12NativeAdTypeO9hashValueSivp",
+            "mangledName": "$s7ABAdKit12NativeAdTypeO9hashValueSivp",
+            "moduleName": "ABAdKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit12NativeAdTypeO9hashValueSivg",
+                "mangledName": "$s7ABAdKit12NativeAdTypeO9hashValueSivg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ABAdKit12NativeAdTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s7ABAdKit12NativeAdTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "ABAdKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7ABAdKit12NativeAdTypeO",
+        "mangledName": "$s7ABAdKit12NativeAdTypeO",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ABNativeAdView",
         "printedName": "ABNativeAdView",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(nativeAdViewModel:isAnimationOn:adHeight:)",
+            "printedName": "init(nativeAdViewModel:isAnimationOn:adType:adHeight:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3353,6 +3604,13 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "NativeAdType",
+                "printedName": "ABAdKit.NativeAdType",
+                "hasDefaultArg": true,
+                "usr": "s:7ABAdKit12NativeAdTypeO"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "CGFloat",
                 "printedName": "CoreGraphics.CGFloat",
                 "hasDefaultArg": true,
@@ -3360,8 +3618,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7ABAdKit14ABNativeAdViewV06nativedE5Model13isAnimationOn8adHeightAcA0cdeG0C_Sb14CoreFoundation7CGFloatVtcfc",
-            "mangledName": "$s7ABAdKit14ABNativeAdViewV06nativedE5Model13isAnimationOn8adHeightAcA0cdeG0C_Sb12CoreGraphics7CGFloatVtcfc",
+            "usr": "s:7ABAdKit14ABNativeAdViewV06nativedE5Model13isAnimationOn6adType0K6HeightAcA0cdeG0C_SbAA06NativedL0O14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s7ABAdKit14ABNativeAdViewV06nativedE5Model13isAnimationOn6adType0K6HeightAcA0cdeG0C_SbAA06NativedL0O12CoreGraphics7CGFloatVtcfc",
             "moduleName": "ABAdKit",
             "declAttributes": [
               "Preconcurrency",
@@ -4219,6 +4477,23 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "ABAdKit"
       },
       {
@@ -4227,6 +4502,23 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -4633,14 +4925,14 @@
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Component\/ABNativeAdView.swift",
       "kind": "BooleanLiteral",
-      "offset": 311,
+      "offset": 410,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Component\/ABNativeAdView.swift",
       "kind": "IntegerLiteral",
-      "offset": 345,
+      "offset": 483,
       "length": 1,
       "value": "0"
     },
