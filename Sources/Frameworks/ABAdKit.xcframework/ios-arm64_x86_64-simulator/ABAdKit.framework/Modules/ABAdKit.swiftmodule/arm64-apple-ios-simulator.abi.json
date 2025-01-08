@@ -3914,6 +3914,49 @@
         "printedName": "NativeAd",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nativeAdViewModel:isAnimationOn:adHeight:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAd",
+                "printedName": "ABAdKit.NativeAd",
+                "usr": "s:7ABAdKit8NativeAdV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdViewModel",
+                "printedName": "ABAdKit.NativeAdViewModel",
+                "usr": "s:7ABAdKit17NativeAdViewModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7ABAdKit8NativeAdV06nativeD9ViewModel13isAnimationOn8adHeightAcA0cdfG0C_Sb14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$s7ABAdKit8NativeAdV06nativeD9ViewModel13isAnimationOn8adHeightAcA0cdfG0C_Sb12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "body",
             "printedName": "body",
@@ -4613,14 +4656,14 @@
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Component\/NativeAd.swift",
       "kind": "BooleanLiteral",
-      "offset": 377,
+      "offset": 384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Component\/NativeAd.swift",
       "kind": "IntegerLiteral",
-      "offset": 411,
+      "offset": 418,
       "length": 1,
       "value": "0"
     },

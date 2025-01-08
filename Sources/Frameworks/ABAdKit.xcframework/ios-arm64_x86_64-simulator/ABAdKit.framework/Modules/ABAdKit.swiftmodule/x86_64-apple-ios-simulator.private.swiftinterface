@@ -131,6 +131,7 @@ extension ABAdKit.ABInter : GoogleMobileAds.GADFullScreenContentDelegate {
   @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
 }
 @_Concurrency.MainActor @preconcurrency public struct NativeAd : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(nativeAdViewModel: ABAdKit.NativeAdViewModel, isAnimationOn: Swift.Bool = true, adHeight: CoreFoundation.CGFloat = 0)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
