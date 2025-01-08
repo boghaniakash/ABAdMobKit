@@ -126,6 +126,7 @@ extension ABAdKit.ABNative : GoogleMobileAds.GADNativeAdLoaderDelegate {
   @objc final public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
 }
 public struct ABNativeAdStyle {
+  public init(adTagColor: UIKit.UIColor = .black, adTagBgColor: UIKit.UIColor = .yellow, adHeadlineTextColor: UIKit.UIColor = .black, adBodyTextColor: UIKit.UIColor = .gray, adBtnBgStartColor: UIKit.UIColor = .blue, adBtnBgEndColor: UIKit.UIColor = .blue, adBtnTextColor: UIKit.UIColor = .white, adBgColor: UIKit.UIColor = .yellow.withAlphaComponent(0.3), adHeadlineFont: UIKit.UIFont = .systemFont(ofSize: 15, weight: .semibold), adBodyFont: UIKit.UIFont = .systemFont(ofSize: 13, weight: .medium), adBtnFont: UIKit.UIFont = .systemFont(ofSize: 19, weight: .semibold), adLblFont: UIKit.UIFont = .systemFont(ofSize: 11, weight: .semibold), horizontalMode: Swift.Bool = false, adBgAlpha: Swift.Double = 1.0)
 }
 final public class ABNativeAdViewModel : Combine.ObservableObject {
   public init()

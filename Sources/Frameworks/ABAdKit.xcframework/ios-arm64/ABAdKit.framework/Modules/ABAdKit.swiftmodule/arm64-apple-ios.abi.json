@@ -3951,6 +3951,127 @@
         "kind": "TypeDecl",
         "name": "ABNativeAdStyle",
         "printedName": "ABNativeAdStyle",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adTagColor:adTagBgColor:adHeadlineTextColor:adBodyTextColor:adBtnBgStartColor:adBtnBgEndColor:adBtnTextColor:adBgColor:adHeadlineFont:adBodyFont:adBtnFont:adLblFont:horizontalMode:adBgAlpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABNativeAdStyle",
+                "printedName": "ABAdKit.ABNativeAdStyle",
+                "usr": "s:7ABAdKit15ABNativeAdStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIFont"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7ABAdKit15ABNativeAdStyleV10adTagColor0fg2BgH00f12HeadlineTextH00f4BodykH00f3Btni5StartH00fmi3EndH00fmkH00fiH00fJ4Font0flP00fmP00f3LblP014horizontalMode0fI5AlphaACSo7UIColorC_A7SSo6UIFontCA3USbSdtcfc",
+            "mangledName": "$s7ABAdKit15ABNativeAdStyleV10adTagColor0fg2BgH00f12HeadlineTextH00f4BodykH00f3Btni5StartH00fmi3EndH00fmkH00fiH00fJ4Font0flP00fmP00f3LblP014horizontalMode0fI5AlphaACSo7UIColorC_A7SSo6UIFontCA3USbSdtcfc",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
         "declKind": "Struct",
         "usr": "s:7ABAdKit15ABNativeAdStyleV",
         "mangledName": "$s7ABAdKit15ABNativeAdStyleV",
@@ -4554,49 +4675,49 @@
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Model\/ABNativeAdStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 391,
+      "offset": 840,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Model\/ABNativeAdStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 449,
+      "offset": 899,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Model\/ABNativeAdStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 521,
+      "offset": 972,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Model\/ABNativeAdStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 590,
+      "offset": 1042,
       "length": 2,
       "value": "19"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Model\/ABNativeAdStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 661,
+      "offset": 1114,
       "length": 2,
       "value": "11"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Model\/ABNativeAdStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 715,
+      "offset": 1169,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABNativeAd\/Model\/ABNativeAdStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 749,
+      "offset": 1204,
       "length": 3,
       "value": "1.0"
     },
