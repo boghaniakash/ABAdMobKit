@@ -897,6 +897,294 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "nativAdCounter",
+            "printedName": "nativAdCounter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit11ABMobileAdsC14nativAdCounterSivp",
+            "mangledName": "$s7ABAdKit11ABMobileAdsC14nativAdCounterSivp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC14nativAdCounterSivg",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC14nativAdCounterSivg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC14nativAdCounterSivs",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC14nativAdCounterSivs",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC14nativAdCounterSivM",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC14nativAdCounterSivM",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nativeShowCount",
+            "printedName": "nativeShowCount",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit11ABMobileAdsC15nativeShowCountSivp",
+            "mangledName": "$s7ABAdKit11ABMobileAdsC15nativeShowCountSivp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC15nativeShowCountSivg",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC15nativeShowCountSivg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC15nativeShowCountSivs",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC15nativeShowCountSivs",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC15nativeShowCountSivM",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC15nativeShowCountSivM",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nativeAdStyle",
+            "printedName": "nativeAdStyle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeAdStyleModel",
+                "printedName": "ABAdKit.NativeAdStyleModel",
+                "usr": "s:7ABAdKit18NativeAdStyleModelV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ABAdKit11ABMobileAdsC13nativeAdStyleAA06NativefG5ModelVvp",
+            "mangledName": "$s7ABAdKit11ABMobileAdsC13nativeAdStyleAA06NativefG5ModelVvp",
+            "moduleName": "ABAdKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAdStyleModel",
+                    "printedName": "ABAdKit.NativeAdStyleModel",
+                    "usr": "s:7ABAdKit18NativeAdStyleModelV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC13nativeAdStyleAA06NativefG5ModelVvg",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC13nativeAdStyleAA06NativefG5ModelVvg",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NativeAdStyleModel",
+                    "printedName": "ABAdKit.NativeAdStyleModel",
+                    "usr": "s:7ABAdKit18NativeAdStyleModelV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC13nativeAdStyleAA06NativefG5ModelVvs",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC13nativeAdStyleAA06NativefG5ModelVvs",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ABAdKit11ABMobileAdsC13nativeAdStyleAA06NativefG5ModelVvM",
+                "mangledName": "$s7ABAdKit11ABMobileAdsC13nativeAdStyleAA06NativefG5ModelVvM",
+                "moduleName": "ABAdKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "startAd",
             "printedName": "startAd()",
@@ -3609,6 +3897,443 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NativeAdStyleModel",
+        "printedName": "NativeAdStyleModel",
+        "declKind": "Struct",
+        "usr": "s:7ABAdKit18NativeAdStyleModelV",
+        "mangledName": "$s7ABAdKit18NativeAdStyleModelV",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GradientButton",
+        "printedName": "GradientButton",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "layerClass",
+            "printedName": "layerClass",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ABAdKit@objc(cs)GradientButton(cpy)layerClass",
+            "mangledName": "$s7ABAdKit14GradientButtonC10layerClassyXlXpvpZ",
+            "moduleName": "ABAdKit",
+            "static": true,
+            "overriding": true,
+            "objc_name": "layerClass",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ABAdKit@objc(cs)GradientButton(cm)layerClass",
+                "mangledName": "$s7ABAdKit14GradientButtonC10layerClassyXlXpvgZ",
+                "moduleName": "ABAdKit",
+                "static": true,
+                "overriding": true,
+                "objc_name": "layerClass",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "traitCollectionDidChange",
+            "printedName": "traitCollectionDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITraitCollection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITraitCollection",
+                    "printedName": "UIKit.UITraitCollection",
+                    "usr": "c:objc(cs)UITraitCollection"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ABAdKit@objc(cs)GradientButton(im)traitCollectionDidChange:",
+            "mangledName": "$s7ABAdKit14GradientButtonC24traitCollectionDidChangeyySo07UITraitF0CSgF",
+            "moduleName": "ABAdKit",
+            "overriding": true,
+            "objc_name": "traitCollectionDidChange:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GradientButton",
+                "printedName": "ABAdKit.GradientButton",
+                "usr": "c:@M@ABAdKit@objc(cs)GradientButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ABAdKit@objc(cs)GradientButton(im)initWithFrame:",
+            "mangledName": "$s7ABAdKit14GradientButtonC5frameACSo6CGRectV_tcfc",
+            "moduleName": "ABAdKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ABAdKit.GradientButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GradientButton",
+                    "printedName": "ABAdKit.GradientButton",
+                    "usr": "c:@M@ABAdKit@objc(cs)GradientButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ABAdKit@objc(cs)GradientButton(im)initWithCoder:",
+            "mangledName": "$s7ABAdKit14GradientButtonC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "ABAdKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ABAdKit@objc(cs)GradientButton",
+        "mangledName": "$s7ABAdKit14GradientButtonC",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "IBDesignable",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIButton",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIButton",
+          "UIKit.UIControl",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ABAdKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
@@ -3662,6 +4387,139 @@
       "offset": 825,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
+      "kind": "IntegerLiteral",
+      "offset": 869,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/ABMobileAd\/ABMobileAds.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Component\/NativeAd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 240,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Component\/NativeAd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 288,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Helper\/Ext+NotificationName.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 14,
+      "value": "\"updateHeight\""
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Helper\/Native.swift",
+      "kind": "Array",
+      "offset": 263,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Helper\/Native.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Helper\/Native.swift",
+      "kind": "BooleanLiteral",
+      "offset": 374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Model\/NativeAdStyleModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 487,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Model\/NativeAdStyleModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 545,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Model\/NativeAdStyleModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 617,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Model\/NativeAdStyleModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 686,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Model\/NativeAdStyleModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 757,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Model\/NativeAdStyleModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 811,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Ads SetUp\/NativeAd\/Model\/NativeAdStyleModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 845,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Classes\/GradientButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 388,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Classes\/GradientButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 473,
+      "length": 4,
+      "value": "0.95"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Classes\/GradientButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 558,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABAdKit\/ABAdKit\/Classes\/GradientButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 639,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
