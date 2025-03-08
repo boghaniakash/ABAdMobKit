@@ -1,0 +1,1404 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AB2NetworkIOS",
+    "printedName": "AB2NetworkIOS",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABAPIMethod",
+        "printedName": "ABAPIMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABAPIMethod.Type) -> AB2NetworkIOS.ABAPIMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABAPIMethod",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod",
+                    "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABAPIMethod",
+                        "printedName": "AB2NetworkIOS.ABAPIMethod",
+                        "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS11ABAPIMethodO3getyA2CmF",
+            "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO3getyA2CmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABAPIMethod.Type) -> AB2NetworkIOS.ABAPIMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABAPIMethod",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod",
+                    "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABAPIMethod",
+                        "printedName": "AB2NetworkIOS.ABAPIMethod",
+                        "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS11ABAPIMethodO4postyA2CmF",
+            "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO4postyA2CmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABAPIMethod.Type) -> AB2NetworkIOS.ABAPIMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABAPIMethod",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod",
+                    "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABAPIMethod",
+                        "printedName": "AB2NetworkIOS.ABAPIMethod",
+                        "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS11ABAPIMethodO3putyA2CmF",
+            "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO3putyA2CmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABAPIMethod.Type) -> AB2NetworkIOS.ABAPIMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABAPIMethod",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod",
+                    "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABAPIMethod",
+                        "printedName": "AB2NetworkIOS.ABAPIMethod",
+                        "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS11ABAPIMethodO5patchyA2CmF",
+            "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO5patchyA2CmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABAPIMethod.Type) -> AB2NetworkIOS.ABAPIMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABAPIMethod",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod",
+                    "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABAPIMethod",
+                        "printedName": "AB2NetworkIOS.ABAPIMethod",
+                        "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS11ABAPIMethodO6deleteyA2CmF",
+            "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO6deleteyA2CmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AB2NetworkIOS.ABAPIMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABAPIMethod",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod",
+                    "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13AB2NetworkIOS11ABAPIMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "AB2NetworkIOS",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS11ABAPIMethodO8rawValueSSvp",
+            "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO8rawValueSSvp",
+            "moduleName": "AB2NetworkIOS",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS11ABAPIMethodO8rawValueSSvg",
+                "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO8rawValueSSvg",
+                "moduleName": "AB2NetworkIOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13AB2NetworkIOS11ABAPIMethodO",
+        "mangledName": "$s13AB2NetworkIOS11ABAPIMethodO",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABAPIService",
+        "printedName": "ABAPIService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABAPIProtocol",
+                "printedName": "any AB2NetworkIOS.ABAPIProtocol",
+                "usr": "s:13AB2NetworkIOS13ABAPIProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AB2NetworkIOS12ABAPIServiceO7requesty10Foundation4DataVAA13ABAPIProtocol_pYaKFZ",
+            "mangledName": "$s13AB2NetworkIOS12ABAPIServiceO7requesty10Foundation4DataVAA13ABAPIProtocol_pYaKFZ",
+            "moduleName": "AB2NetworkIOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABAPIProtocol",
+                "printedName": "any AB2NetworkIOS.ABAPIProtocol",
+                "usr": "s:13AB2NetworkIOS13ABAPIProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AB2NetworkIOS12ABAPIServiceO7requestyxAA13ABAPIProtocol_pYaKSeRzSERzlFZ",
+            "mangledName": "$s13AB2NetworkIOS12ABAPIServiceO7requestyxAA13ABAPIProtocol_pYaKSeRzSERzlFZ",
+            "moduleName": "AB2NetworkIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABAPIProtocol",
+                "printedName": "any AB2NetworkIOS.ABAPIProtocol",
+                "usr": "s:13AB2NetworkIOS13ABAPIProtocolP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AB2NetworkIOS12ABAPIServiceO7requestySDySSypGAA13ABAPIProtocol_pYaKFZ",
+            "mangledName": "$s13AB2NetworkIOS12ABAPIServiceO7requestySDySSypGAA13ABAPIProtocol_pYaKFZ",
+            "moduleName": "AB2NetworkIOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13AB2NetworkIOS12ABAPIServiceO",
+        "mangledName": "$s13AB2NetworkIOS12ABAPIServiceO",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABRequest",
+        "printedName": "ABRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "jsonEncoding",
+            "printedName": "jsonEncoding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABRequest.Type) -> ([Swift.String : Any]?) -> AB2NetworkIOS.ABRequest",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]?) -> AB2NetworkIOS.ABRequest",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABRequest.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS9ABRequestO12jsonEncodingyACSDySSypGSgcACmF",
+            "mangledName": "$s13AB2NetworkIOS9ABRequestO12jsonEncodingyACSDySSypGSgcACmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "urlEncoding",
+            "printedName": "urlEncoding",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABRequest.Type) -> ([Swift.String : Any]?) -> AB2NetworkIOS.ABRequest",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]?) -> AB2NetworkIOS.ABRequest",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABRequest.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS9ABRequestO11urlEncodingyACSDySSypGSgcACmF",
+            "mangledName": "$s13AB2NetworkIOS9ABRequestO11urlEncodingyACSDySSypGSgcACmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "queryString",
+            "printedName": "queryString",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABRequest.Type) -> ([Swift.String : Any]?) -> AB2NetworkIOS.ABRequest",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any]?) -> AB2NetworkIOS.ABRequest",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[Swift.String : Any]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABRequest.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS9ABRequestO11queryStringyACSDySSypGSgcACmF",
+            "mangledName": "$s13AB2NetworkIOS9ABRequestO11queryStringyACSDySSypGSgcACmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "multiPart",
+            "printedName": "multiPart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABRequest.Type) -> (AB2NetworkIOS.ABMultipartRequest) -> AB2NetworkIOS.ABRequest",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(AB2NetworkIOS.ABMultipartRequest) -> AB2NetworkIOS.ABRequest",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABMultipartRequest",
+                        "printedName": "AB2NetworkIOS.ABMultipartRequest",
+                        "usr": "s:13AB2NetworkIOS18ABMultipartRequestV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABRequest.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS9ABRequestO9multiPartyAcA18ABMultipartRequestVcACmF",
+            "mangledName": "$s13AB2NetworkIOS9ABRequestO9multiPartyAcA18ABMultipartRequestVcACmF",
+            "moduleName": "AB2NetworkIOS"
+          },
+          {
+            "kind": "Var",
+            "name": "requestPlain",
+            "printedName": "requestPlain",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AB2NetworkIOS.ABRequest.Type) -> AB2NetworkIOS.ABRequest",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABRequest",
+                    "printedName": "AB2NetworkIOS.ABRequest",
+                    "usr": "s:13AB2NetworkIOS9ABRequestO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AB2NetworkIOS.ABRequest.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ABRequest",
+                        "printedName": "AB2NetworkIOS.ABRequest",
+                        "usr": "s:13AB2NetworkIOS9ABRequestO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13AB2NetworkIOS9ABRequestO12requestPlainyA2CmF",
+            "mangledName": "$s13AB2NetworkIOS9ABRequestO12requestPlainyA2CmF",
+            "moduleName": "AB2NetworkIOS"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13AB2NetworkIOS9ABRequestO",
+        "mangledName": "$s13AB2NetworkIOS9ABRequestO",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AB2CommonIOS",
+        "printedName": "AB2CommonIOS",
+        "declKind": "Import",
+        "moduleName": "AB2NetworkIOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABAPIProtocol",
+        "printedName": "ABAPIProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABAPIMethod",
+                "printedName": "AB2NetworkIOS.ABAPIMethod",
+                "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS13ABAPIProtocolP6methodAA11ABAPIMethodOvp",
+            "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP6methodAA11ABAPIMethodOvp",
+            "moduleName": "AB2NetworkIOS",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABAPIMethod",
+                    "printedName": "AB2NetworkIOS.ABAPIMethod",
+                    "usr": "s:13AB2NetworkIOS11ABAPIMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS13ABAPIProtocolP6methodAA11ABAPIMethodOvg",
+                "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP6methodAA11ABAPIMethodOvg",
+                "moduleName": "AB2NetworkIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : AB2NetworkIOS.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : AB2NetworkIOS.ABAPIProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS13ABAPIProtocolP7baseURLSSvp",
+            "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP7baseURLSSvp",
+            "moduleName": "AB2NetworkIOS",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS13ABAPIProtocolP7baseURLSSvg",
+                "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP7baseURLSSvg",
+                "moduleName": "AB2NetworkIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : AB2NetworkIOS.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : AB2NetworkIOS.ABAPIProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS13ABAPIProtocolP4pathSSvp",
+            "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP4pathSSvp",
+            "moduleName": "AB2NetworkIOS",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS13ABAPIProtocolP4pathSSvg",
+                "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP4pathSSvg",
+                "moduleName": "AB2NetworkIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : AB2NetworkIOS.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : AB2NetworkIOS.ABAPIProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "task",
+            "printedName": "task",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABRequest",
+                "printedName": "AB2NetworkIOS.ABRequest",
+                "usr": "s:13AB2NetworkIOS9ABRequestO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS13ABAPIProtocolP4taskAA9ABRequestOvp",
+            "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP4taskAA9ABRequestOvp",
+            "moduleName": "AB2NetworkIOS",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABRequest",
+                    "printedName": "AB2NetworkIOS.ABRequest",
+                    "usr": "s:13AB2NetworkIOS9ABRequestO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS13ABAPIProtocolP4taskAA9ABRequestOvg",
+                "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP4taskAA9ABRequestOvg",
+                "moduleName": "AB2NetworkIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : AB2NetworkIOS.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : AB2NetworkIOS.ABAPIProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "header",
+            "printedName": "header",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS13ABAPIProtocolP6headerSDyS2SGvp",
+            "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP6headerSDyS2SGvp",
+            "moduleName": "AB2NetworkIOS",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS13ABAPIProtocolP6headerSDyS2SGvg",
+                "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP6headerSDyS2SGvg",
+                "moduleName": "AB2NetworkIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : AB2NetworkIOS.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : AB2NetworkIOS.ABAPIProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:13AB2NetworkIOS13ABAPIProtocolP",
+        "mangledName": "$s13AB2NetworkIOS13ABAPIProtocolP",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AB2CommonIOS",
+        "printedName": "AB2CommonIOS",
+        "declKind": "Import",
+        "moduleName": "AB2NetworkIOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABMultipartRequest",
+        "printedName": "ABMultipartRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "boundary",
+            "printedName": "boundary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS18ABMultipartRequestV8boundarySSvp",
+            "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV8boundarySSvp",
+            "moduleName": "AB2NetworkIOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS18ABMultipartRequestV8boundarySSvg",
+                "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV8boundarySSvg",
+                "moduleName": "AB2NetworkIOS",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(boundary:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABMultipartRequest",
+                "printedName": "AB2NetworkIOS.ABMultipartRequest",
+                "usr": "s:13AB2NetworkIOS18ABMultipartRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13AB2NetworkIOS18ABMultipartRequestV8boundaryACSS_tcfc",
+            "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV8boundaryACSS_tcfc",
+            "moduleName": "AB2NetworkIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AB2NetworkIOS18ABMultipartRequestV3add3key5valueySS_SStF",
+            "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV3add3key5valueySS_SStF",
+            "moduleName": "AB2NetworkIOS",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl"
+            ],
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(key:fileName:fileMimeType:fileData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AB2NetworkIOS18ABMultipartRequestV3add3key8fileName0H8MimeType0H4DataySS_S2S10Foundation0L0VtF",
+            "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV3add3key8fileName0H8MimeType0H4DataySS_S2S10Foundation0L0VtF",
+            "moduleName": "AB2NetworkIOS",
+            "declAttributes": [
+              "Mutating",
+              "AccessControl"
+            ],
+            "funcSelfKind": "Mutating"
+          },
+          {
+            "kind": "Var",
+            "name": "httpContentTypeHeadeValue",
+            "printedName": "httpContentTypeHeadeValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS18ABMultipartRequestV25httpContentTypeHeadeValueSSvp",
+            "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV25httpContentTypeHeadeValueSSvp",
+            "moduleName": "AB2NetworkIOS",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS18ABMultipartRequestV25httpContentTypeHeadeValueSSvg",
+                "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV25httpContentTypeHeadeValueSSvg",
+                "moduleName": "AB2NetworkIOS",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "httpBody",
+            "printedName": "httpBody",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2NetworkIOS18ABMultipartRequestV8httpBody10Foundation4DataVvp",
+            "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV8httpBody10Foundation4DataVvp",
+            "moduleName": "AB2NetworkIOS",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2NetworkIOS18ABMultipartRequestV8httpBody10Foundation4DataVvg",
+                "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV8httpBody10Foundation4DataVvg",
+                "moduleName": "AB2NetworkIOS",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13AB2NetworkIOS18ABMultipartRequestV",
+        "mangledName": "$s13AB2NetworkIOS18ABMultipartRequestV",
+        "moduleName": "AB2NetworkIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kunjm2\/Documents\/Frameworks\/AB2NetworkIOS\/AB2NetworkIOS\/Public\/Utilities\/ABMultipartRequest\/ABMultipartRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 6,
+      "value": "\"\r\n\""
+    }
+  ]
+}

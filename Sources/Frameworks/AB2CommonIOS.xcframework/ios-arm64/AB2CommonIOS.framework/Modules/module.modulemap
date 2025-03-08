@@ -1,0 +1,6 @@
+framework module AB2CommonIOS {
+  umbrella header "AB2CommonIOS.h"
+  export *
+
+  module * { export * }
+}

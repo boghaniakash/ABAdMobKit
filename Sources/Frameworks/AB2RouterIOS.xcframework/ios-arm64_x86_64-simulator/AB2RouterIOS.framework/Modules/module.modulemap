@@ -1,0 +1,6 @@
+framework module AB2RouterIOS {
+  umbrella header "AB2RouterIOS.h"
+  export *
+
+  module * { export * }
+}

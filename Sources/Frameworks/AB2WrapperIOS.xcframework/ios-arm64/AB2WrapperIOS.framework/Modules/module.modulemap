@@ -1,0 +1,6 @@
+framework module AB2WrapperIOS {
+  umbrella header "AB2WrapperIOS.h"
+  export *
+
+  module * { export * }
+}

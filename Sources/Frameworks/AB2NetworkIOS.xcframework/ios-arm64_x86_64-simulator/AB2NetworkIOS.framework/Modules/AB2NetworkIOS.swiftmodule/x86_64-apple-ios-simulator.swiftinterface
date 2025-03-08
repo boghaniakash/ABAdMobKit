@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AB2NetworkIOS
+import AB2CommonIOS
+@_exported import AB2NetworkIOS
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum ABAPIMethod : Swift.String {
+  case get, post, put, patch, delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ABAPIService {
+  public static func request(_ rout: any AB2NetworkIOS.ABAPIProtocol) async throws -> Foundation.Data
+  public static func request<T>(_ rout: any AB2NetworkIOS.ABAPIProtocol) async throws -> T where T : Swift.Decodable, T : Swift.Encodable
+  public static func request(_ rout: any AB2NetworkIOS.ABAPIProtocol) async throws -> [Swift.String : Any]
+}
+public enum ABRequest {
+  case jsonEncoding(_: [Swift.String : Any]?)
+  case urlEncoding(_: [Swift.String : Any]?)
+  case queryString(_: [Swift.String : Any]?)
+  case multiPart(_: AB2NetworkIOS.ABMultipartRequest)
+  case requestPlain
+}
+public protocol ABAPIProtocol {
+  var method: AB2NetworkIOS.ABAPIMethod { get }
+  var baseURL: Swift.String { get }
+  var path: Swift.String { get }
+  var task: AB2NetworkIOS.ABRequest { get }
+  var header: [Swift.String : Swift.String] { get }
+}
+public struct ABMultipartRequest {
+  public let boundary: Swift.String
+  public init(boundary: Swift.String = UUID().uuidString)
+  public mutating func add(key: Swift.String, value: Swift.String)
+  public mutating func add(key: Swift.String, fileName: Swift.String, fileMimeType: Swift.String, fileData: Foundation.Data)
+}
+extension AB2NetworkIOS.ABMultipartRequest {
+  public var httpContentTypeHeadeValue: Swift.String {
+    get
+  }
+  public var httpBody: Foundation.Data {
+    get
+  }
+}
+extension AB2NetworkIOS.ABAPIMethod : Swift.Equatable {}
+extension AB2NetworkIOS.ABAPIMethod : Swift.Hashable {}
+extension AB2NetworkIOS.ABAPIMethod : Swift.RawRepresentable {}

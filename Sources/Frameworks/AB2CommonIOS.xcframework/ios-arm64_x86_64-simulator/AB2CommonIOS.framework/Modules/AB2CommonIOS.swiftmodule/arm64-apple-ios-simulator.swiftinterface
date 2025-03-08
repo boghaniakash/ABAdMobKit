@@ -1,0 +1,197 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AB2CommonIOS
+@_exported import AB2CommonIOS
+import AVKit
+import AppTrackingTransparency
+import Foundation
+import SafariServices
+import StoreKit
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum ABDateFormatType {
+  case iso8601
+  case fullDayWithFullDate
+  case monthDayYearWithTime
+  case abbreviatedMonthDayWithTime
+  case hourMinuteSecondWithMilliseconds
+  case monthDayYear
+  case monthDayYearSlashes
+  case twelveHourTime
+  case fullMonthYear
+  case dayMonthYearDots
+  case hhmmssDots
+  case shortDayShortMonthYear
+  case shortDayShortMonth
+  case shortMonthDayYear
+  case fullDayFullMonthYear
+  case fullMonthDayYear
+  case dayMonthYear
+  case fullYear
+  case shortYear
+  case monthDay
+  case shortMonthDay
+  case shortMonthYear
+  case monthYear
+  case day
+  case fullDay
+  case month
+  case fullMonth
+  case shortTime
+  case longTime
+  case hhmma
+  case shortMonth
+  case longMonth
+  case shortWeekday
+  case custom(_: Swift.String)
+}
+public enum ABLogTag : Swift.String {
+  case error
+  case warning
+  case success
+  case debug
+  case network
+  case simOnly
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Foundation.Bundle {
+  public var appName: Swift.String {
+    get
+  }
+  public func decode<T>(_ file: Swift.String) throws -> T where T : Swift.Decodable, T : Swift.Encodable
+}
+extension Foundation.Data {
+  public func decode<T>(as type: T.Type) throws -> T where T : Swift.Decodable
+}
+extension Foundation.Data {
+  public mutating func append(_ string: Swift.String, encoding: Swift.String.Encoding = .utf8)
+}
+extension Foundation.Date {
+  public func toString(format: AB2CommonIOS.ABDateFormatType) -> Swift.String
+}
+extension Swift.Dictionary {
+  public func decode<T>() throws -> T where T : Swift.Decodable, T : Swift.Encodable
+}
+extension Swift.Dictionary where Key == Swift.String {
+  public var asQueryParam: [Foundation.URLQueryItem] {
+    get
+  }
+}
+extension Dispatch.DispatchQueue {
+  public func after(time interval: Foundation.TimeInterval, work: @escaping () -> Swift.Void)
+}
+extension Swift.Encodable {
+  public func data(using encoder: Foundation.JSONEncoder = JSONEncoder()) throws -> Foundation.Data
+}
+extension Swift.Encodable {
+  public var asDictionary: [Swift.String : Any]? {
+    get
+  }
+}
+extension Swift.Int {
+  public var asDeviceHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public var asDeviceWidth: CoreFoundation.CGFloat {
+    get
+  }
+}
+extension Swift.Double {
+  public var asDeviceHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public var asDeviceWidth: CoreFoundation.CGFloat {
+    get
+  }
+}
+extension Swift.Float {
+  public var asDeviceHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public var asDeviceWidth: CoreFoundation.CGFloat {
+    get
+  }
+}
+extension CoreFoundation.CGFloat {
+  public var asDeviceHeight: CoreFoundation.CGFloat {
+    get
+  }
+  public var asDeviceWidth: CoreFoundation.CGFloat {
+    get
+  }
+}
+extension Swift.FloatingPoint {
+  public func toString(withDecimalPlaces places: Swift.Int) -> Swift.String
+}
+extension Swift.String {
+  public func trim() -> Swift.String
+  public func trimmingAllSpaces(using characterSet: Foundation.CharacterSet = .whitespacesAndNewlines) -> Swift.String
+  public func toDate(_ format: AB2CommonIOS.ABDateFormatType) -> Foundation.Date
+}
+extension Swift.String {
+  public var isBlank: Swift.Bool {
+    get
+  }
+}
+extension Foundation.URLRequest {
+  public var curlString: Swift.String {
+    get
+  }
+}
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func Print(_ vars: Any...) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func eraseToAnyView() -> SwiftUICore.AnyView
+  @_Concurrency.MainActor @preconcurrency public func cornerRadius(_ radius: CoreFoundation.CGFloat, corners: UIKit.UIRectCorner = .allCorners) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func ondidLoad(_ perform: @escaping () -> Swift.Void) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func onWillAppear(_ perform: @escaping () -> Swift.Void) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func glow(color: SwiftUICore.Color, radius: CoreFoundation.CGFloat) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func popUp<V>(isPresented: SwiftUICore.Binding<Swift.Bool>, @SwiftUICore.ViewBuilder content: @escaping () -> V) -> some SwiftUICore.View where V : SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func Divider(_ thickness: CoreFoundation.CGFloat = 1, isVertival: Swift.Bool = false) -> some SwiftUICore.View
+  
+}
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor @preconcurrency public static var keyWindow: UIKit.UIWindow? {
+    get
+  }
+}
+public enum ABAlert {
+  public static func getTopMostVc() -> UIKit.UIViewController?
+  public static func showAlert(title: Swift.String = Bundle.main.appName, titleFont: UIKit.UIFont = .systemFont(ofSize: 18.asDeviceWidth, weight: .semibold), msg: Swift.String? = nil, msgFont: UIKit.UIFont = .systemFont(ofSize: 13.asDeviceWidth, weight: .regular), options: Swift.String..., btnStyle: UIKit.UIAlertAction.Style..., completion: @escaping ((Swift.Int) -> Swift.Void))
+  public static func showAlert(title: Swift.String = Bundle.main.appName, titleFont: UIKit.UIFont = .systemFont(ofSize: 18.asDeviceWidth, weight: .semibold), msg: Swift.String? = nil, msgFont: UIKit.UIFont = .systemFont(ofSize: 13.asDeviceWidth, weight: .regular), buttonText: Swift.String? = "Ok", complition: (() -> Swift.Void)? = nil)
+  public static func gotoSettingAlert(msg: Swift.String)
+  public static func shareApp(with appID: Swift.String)
+  public static func shareData(with data: [Any])
+  public static func openSafari(urlStr: Swift.String)
+  public static func open(_ urlString: Swift.String, fallbackURL: Swift.String? = nil)
+  public static func openMail(to mail: Swift.String)
+  public static func rateApp()
+  public static func hideKeyboard()
+}
+public enum ABHaptic {
+  public static func selction()
+  public static func impact(style: UIKit.UIImpactFeedbackGenerator.FeedbackStyle = .soft)
+  public static func notify(type: UIKit.UINotificationFeedbackGenerator.FeedbackType = .success)
+}
+@_hasMissingDesignatedInitializers final public class ABLogger {
+  public static var shared: AB2CommonIOS.ABLogger
+  final public var isDebugEnabled: Swift.Bool
+  final public func track(tag: AB2CommonIOS.ABLogTag = .debug, _ items: Any..., file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, separator: Swift.String = " ")
+  @objc deinit
+}
+extension AB2CommonIOS.ABLogTag : Swift.Equatable {}
+extension AB2CommonIOS.ABLogTag : Swift.Hashable {}
+extension AB2CommonIOS.ABLogTag : Swift.RawRepresentable {}

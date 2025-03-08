@@ -1,0 +1,882 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AB2WrapperIOS",
+    "printedName": "AB2WrapperIOS",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2WrapperIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2WrapperIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2WrapperIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABInjected",
+        "printedName": "ABInjected",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2WrapperIOS10ABInjectedC12wrappedValuexvp",
+            "mangledName": "$s13AB2WrapperIOS10ABInjectedC12wrappedValuexvp",
+            "moduleName": "AB2WrapperIOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS10ABInjectedC12wrappedValuexvg",
+                "mangledName": "$s13AB2WrapperIOS10ABInjectedC12wrappedValuexvg",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS10ABInjectedC12wrappedValuexvs",
+                "mangledName": "$s13AB2WrapperIOS10ABInjectedC12wrappedValuexvs",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS10ABInjectedC12wrappedValuexvM",
+                "mangledName": "$s13AB2WrapperIOS10ABInjectedC12wrappedValuexvM",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resolver:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABInjected",
+                "printedName": "AB2WrapperIOS.ABInjected<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13AB2WrapperIOS10ABInjectedC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABResolver",
+                "printedName": "AB2WrapperIOS.ABResolver",
+                "hasDefaultArg": true,
+                "usr": "s:13AB2WrapperIOS10ABResolverC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13AB2WrapperIOS10ABInjectedC8resolver3tagACyxGAA10ABResolverC_SSSgtcfc",
+            "mangledName": "$s13AB2WrapperIOS10ABInjectedC8resolver3tagACyxGAA10ABResolverC_SSSgtcfc",
+            "moduleName": "AB2WrapperIOS",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Service>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13AB2WrapperIOS10ABInjectedC",
+        "mangledName": "$s13AB2WrapperIOS10ABInjectedC",
+        "moduleName": "AB2WrapperIOS",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Service>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2WrapperIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABOptionalInjected",
+        "printedName": "ABOptionalInjected",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2WrapperIOS18ABOptionalInjectedC12wrappedValuexSgvp",
+            "mangledName": "$s13AB2WrapperIOS18ABOptionalInjectedC12wrappedValuexSgvp",
+            "moduleName": "AB2WrapperIOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS18ABOptionalInjectedC12wrappedValuexSgvg",
+                "mangledName": "$s13AB2WrapperIOS18ABOptionalInjectedC12wrappedValuexSgvg",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS18ABOptionalInjectedC12wrappedValuexSgvs",
+                "mangledName": "$s13AB2WrapperIOS18ABOptionalInjectedC12wrappedValuexSgvs",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS18ABOptionalInjectedC12wrappedValuexSgvM",
+                "mangledName": "$s13AB2WrapperIOS18ABOptionalInjectedC12wrappedValuexSgvM",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resolver:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABOptionalInjected",
+                "printedName": "AB2WrapperIOS.ABOptionalInjected<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13AB2WrapperIOS18ABOptionalInjectedC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABResolver",
+                "printedName": "AB2WrapperIOS.ABResolver",
+                "hasDefaultArg": true,
+                "usr": "s:13AB2WrapperIOS10ABResolverC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13AB2WrapperIOS18ABOptionalInjectedC8resolver3tagACyxGAA10ABResolverC_SSSgtcfc",
+            "mangledName": "$s13AB2WrapperIOS18ABOptionalInjectedC8resolver3tagACyxGAA10ABResolverC_SSSgtcfc",
+            "moduleName": "AB2WrapperIOS",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Service>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13AB2WrapperIOS18ABOptionalInjectedC",
+        "mangledName": "$s13AB2WrapperIOS18ABOptionalInjectedC",
+        "moduleName": "AB2WrapperIOS",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Service>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2WrapperIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABResolver",
+        "printedName": "ABResolver",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABResolver",
+                "printedName": "AB2WrapperIOS.ABResolver",
+                "usr": "s:13AB2WrapperIOS10ABResolverC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2WrapperIOS10ABResolverC7defaultACvpZ",
+            "mangledName": "$s13AB2WrapperIOS10ABResolverC7defaultACvpZ",
+            "moduleName": "AB2WrapperIOS",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABResolver",
+                    "printedName": "AB2WrapperIOS.ABResolver",
+                    "usr": "s:13AB2WrapperIOS10ABResolverC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS10ABResolverC7defaultACvgZ",
+                "mangledName": "$s13AB2WrapperIOS10ABResolverC7defaultACvgZ",
+                "moduleName": "AB2WrapperIOS",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(type:tag:factory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AB2WrapperIOS10ABResolverC8register4type3tag7factoryyxm_SSSgxyXAtlF",
+            "mangledName": "$s13AB2WrapperIOS10ABResolverC8register4type3tag7factoryyxm_SSSgxyXAtlF",
+            "moduleName": "AB2WrapperIOS",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(type:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AB2WrapperIOS10ABResolverC10unregister4type3tagyxm_SSSgtlF",
+            "mangledName": "$s13AB2WrapperIOS10ABResolverC10unregister4type3tagyxm_SSSgtlF",
+            "moduleName": "AB2WrapperIOS",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13AB2WrapperIOS10ABResolverC",
+        "mangledName": "$s13AB2WrapperIOS10ABResolverC",
+        "moduleName": "AB2WrapperIOS",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AB2WrapperIOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AB2CommonIOS",
+        "printedName": "AB2CommonIOS",
+        "declKind": "Import",
+        "moduleName": "AB2WrapperIOS"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABUserDefault",
+        "printedName": "ABUserDefault",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABUserDefault",
+                "printedName": "AB2WrapperIOS.ABUserDefault<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13AB2WrapperIOS13ABUserDefaultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13AB2WrapperIOS13ABUserDefaultV3key12defaultValueACyxGSS_xtcfc",
+            "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV3key12defaultValueACyxGSS_xtcfc",
+            "moduleName": "AB2WrapperIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2WrapperIOS13ABUserDefaultV12wrappedValuexvp",
+            "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV12wrappedValuexvp",
+            "moduleName": "AB2WrapperIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS13ABUserDefaultV12wrappedValuexvg",
+                "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV12wrappedValuexvg",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS13ABUserDefaultV12wrappedValuexvs",
+                "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV12wrappedValuexvs",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS13ABUserDefaultV12wrappedValuexvM",
+                "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV12wrappedValuexvM",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "projectedValue",
+            "printedName": "projectedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABUserDefault",
+                "printedName": "AB2WrapperIOS.ABUserDefault<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:13AB2WrapperIOS13ABUserDefaultV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13AB2WrapperIOS13ABUserDefaultV14projectedValueACyxGvp",
+            "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV14projectedValueACyxGvp",
+            "moduleName": "AB2WrapperIOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABUserDefault",
+                    "printedName": "AB2WrapperIOS.ABUserDefault<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:13AB2WrapperIOS13ABUserDefaultV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13AB2WrapperIOS13ABUserDefaultV14projectedValueACyxGvg",
+                "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV14projectedValueACyxGvg",
+                "moduleName": "AB2WrapperIOS",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "removeObject",
+            "printedName": "removeObject()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13AB2WrapperIOS13ABUserDefaultV12removeObjectyyF",
+            "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV12removeObjectyyF",
+            "moduleName": "AB2WrapperIOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13AB2WrapperIOS13ABUserDefaultV",
+        "mangledName": "$s13AB2WrapperIOS13ABUserDefaultV",
+        "moduleName": "AB2WrapperIOS",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

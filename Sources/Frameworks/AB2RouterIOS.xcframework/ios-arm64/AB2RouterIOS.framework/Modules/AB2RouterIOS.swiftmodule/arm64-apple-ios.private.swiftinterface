@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AB2RouterIOS
+@_exported import AB2RouterIOS
+import Combine
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class ABRouter<T> : Combine.ObservableObject where T : Swift.Equatable {
+  public var stack: [T] {
+    get
+  }
+  public init(initial: T)
+  public func push(_ route: T)
+  public func pop()
+  public func popTo(_ route: T, inclusive: Swift.Bool = false)
+  public func setRoot(_ route: T)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+public typealias ABRouteMap<T, Screen> = (T) -> Screen
+@_Concurrency.MainActor @preconcurrency public struct ABRouterHost<T, Screen> : SwiftUICore.View where T : Swift.Equatable, Screen : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(_ router: AB2RouterIOS.ABRouter<T>, @SwiftUICore.ViewBuilder _ routeMap: @escaping AB2RouterIOS.ABRouteMap<T, Screen>)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12AB2RouterIOS12ABRouterHostV4bodyQrvp", 0) __<T, Screen>
+}
+@_hasMissingDesignatedInitializers final public class ABRouterUIKit {
+  public static let shared: AB2RouterIOS.ABRouterUIKit
+  final public func configure(with navigationController: UIKit.UINavigationController)
+  final public func start(with initialRoute: any AB2RouterIOS.ABRouteUIKit)
+  final public func setRoot(to route: any AB2RouterIOS.ABRouteUIKit, duration: Foundation.TimeInterval? = nil, options: UIKit.UIView.AnimationOptions? = nil)
+  final public func push(to route: any AB2RouterIOS.ABRouteUIKit)
+  final public func pop()
+  final public func pop(to route: any AB2RouterIOS.ABRouteUIKit)
+  final public func show(sheet route: any AB2RouterIOS.ABRouteUIKit, presentationStyle: UIKit.UIModalPresentationStyle? = nil, transitionStyle: UIKit.UIModalTransitionStyle? = nil)
+  final public func dismiss(completion: (() -> Swift.Void)? = nil)
+  @objc deinit
+}
+public protocol ABRouteUIKit {
+  associatedtype ViewController : UIKit.UIViewController
+  var viewController: Self.ViewController { get }
+}
+extension AB2RouterIOS.ABRouterHost : Swift.Sendable {}

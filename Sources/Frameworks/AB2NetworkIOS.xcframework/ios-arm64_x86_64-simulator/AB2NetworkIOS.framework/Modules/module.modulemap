@@ -1,0 +1,6 @@
+framework module AB2NetworkIOS {
+  umbrella header "AB2NetworkIOS.h"
+  export *
+
+  module * { export * }
+}
