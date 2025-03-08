@@ -17,18 +17,18 @@ import _SwiftConcurrencyShims
   final public func tryToPresentAd()
   @objc deinit
 }
-extension ABAdKit.ABForegroundAppOpen : GoogleMobileAds.GADFullScreenContentDelegate {
-  @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+extension ABAdKit.ABForegroundAppOpen : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ABSplashAppOpen : ObjectiveC.NSObject {
   public static let shared: ABAdKit.ABSplashAppOpen
   final public func load(_ onLoad: @escaping () -> Swift.Void)
   @objc deinit
 }
-extension ABAdKit.ABSplashAppOpen : GoogleMobileAds.GADFullScreenContentDelegate {
-  @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+extension ABAdKit.ABSplashAppOpen : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
 }
 public enum ABBannerAdFormate {
   case standartBanner
@@ -39,7 +39,7 @@ public enum ABBannerAdFormate {
   case skyscrapper
   case fluid
   case adaptiveBanner
-  public var adSize: GoogleMobileAds.GADAdSize {
+  public var adSize: GoogleMobileAds.AdSize {
     get
   }
   public var size: CoreFoundation.CGSize {
@@ -85,9 +85,9 @@ public enum BannerAdStatus {
   final public func presentAd(_ onDismiss: @escaping () -> Swift.Void)
   @objc deinit
 }
-extension ABAdKit.ABInter : GoogleMobileAds.GADFullScreenContentDelegate {
-  @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+extension ABAdKit.ABInter : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
 }
 @_hasMissingDesignatedInitializers final public class ABMobileAds {
   public static let shared: ABAdKit.ABMobileAds
@@ -131,9 +131,9 @@ public enum NativeAdType {
   @objc override dynamic public init()
   @objc deinit
 }
-extension ABAdKit.ABNative : GoogleMobileAds.GADNativeAdLoaderDelegate {
-  @objc final public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didReceive nativeAd: GoogleMobileAds.GADNativeAd)
-  @objc final public func adLoader(_ adLoader: GoogleMobileAds.GADAdLoader, didFailToReceiveAdWithError error: any Swift.Error)
+extension ABAdKit.ABNative : GoogleMobileAds.NativeAdLoaderDelegate {
+  @objc final public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didReceive nativeAd: GoogleMobileAds.NativeAd)
+  @objc final public func adLoader(_ adLoader: GoogleMobileAds.AdLoader, didFailToReceiveAdWithError error: any Swift.Error)
 }
 public struct ABNativeAdStyle {
   public init(adTagColor: UIKit.UIColor = .black, adTagBgColor: UIKit.UIColor = .yellow, adHeadlineTextColor: UIKit.UIColor = .black, adBodyTextColor: UIKit.UIColor = .gray, adBtnBgStartColor: UIKit.UIColor = .blue, adBtnBgEndColor: UIKit.UIColor = .blue, adBtnTextColor: UIKit.UIColor = .white, adBgColor: UIKit.UIColor = .yellow.withAlphaComponent(0.3), adHeadlineFont: UIKit.UIFont = .systemFont(ofSize: 15, weight: .semibold), adBodyFont: UIKit.UIFont = .systemFont(ofSize: 13, weight: .medium), adBtnFont: UIKit.UIFont = .systemFont(ofSize: 19, weight: .semibold), adLblFont: UIKit.UIFont = .systemFont(ofSize: 11, weight: .semibold), horizontalMode: Swift.Bool = false, adBgAlpha: Swift.Double = 1.0)
@@ -150,9 +150,9 @@ final public class ABNativeAdViewModel : Combine.ObservableObject {
   final public func presentAd(_ onDismiss: @escaping () -> Swift.Void, onReward: @escaping () -> Swift.Void)
   @objc deinit
 }
-extension ABAdKit.ABReward : GoogleMobileAds.GADFullScreenContentDelegate {
-  @objc final public func ad(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
-  @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.GADFullScreenPresentingAd)
+extension ABAdKit.ABReward : GoogleMobileAds.FullScreenContentDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func ad(_ ad: any GoogleMobileAds.FullScreenPresentingAd, didFailToPresentFullScreenContentWithError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc final public func adDidDismissFullScreenContent(_ ad: any GoogleMobileAds.FullScreenPresentingAd)
 }
 extension ABAdKit.ABBannerAdFormate : Swift.Equatable {}
 extension ABAdKit.ABBannerAdFormate : Swift.Hashable {}

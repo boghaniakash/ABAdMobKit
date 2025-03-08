@@ -32,6 +32,13 @@
         "moduleName": "ABAdKit"
       },
       {
+        "kind": "Import",
+        "name": "AB2CommonIOS",
+        "printedName": "AB2CommonIOS",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ABForegroundAppOpen",
         "printedName": "ABForegroundAppOpen",
@@ -122,8 +129,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               },
               {
@@ -141,6 +148,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -158,8 +167,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -171,6 +180,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -262,6 +273,13 @@
         "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AB2CommonIOS",
+        "printedName": "AB2CommonIOS",
         "declKind": "Import",
         "moduleName": "ABAdKit"
       },
@@ -373,8 +391,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               },
               {
@@ -392,6 +410,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -409,8 +429,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -422,6 +442,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -834,8 +856,8 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "GADAdSize",
-                "printedName": "GoogleMobileAds.GADAdSize",
+                "name": "AdSize",
+                "printedName": "GoogleMobileAds.AdSize",
                 "usr": "c:@S@GADAdSize"
               }
             ],
@@ -854,8 +876,8 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "GADAdSize",
-                    "printedName": "GoogleMobileAds.GADAdSize",
+                    "name": "AdSize",
+                    "printedName": "GoogleMobileAds.AdSize",
                     "usr": "c:@S@GADAdSize"
                   }
                 ],
@@ -1307,6 +1329,13 @@
         "kind": "Import",
         "name": "GoogleMobileAds",
         "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AB2CommonIOS",
+        "printedName": "AB2CommonIOS",
         "declKind": "Import",
         "moduleName": "ABAdKit"
       },
@@ -1816,6 +1845,13 @@
         "moduleName": "ABAdKit"
       },
       {
+        "kind": "Import",
+        "name": "AB2CommonIOS",
+        "printedName": "AB2CommonIOS",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ABInter",
         "printedName": "ABInter",
@@ -1970,8 +2006,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               },
               {
@@ -1989,6 +2025,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -2006,8 +2044,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -2019,6 +2057,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -3872,6 +3912,13 @@
         "moduleName": "ABAdKit"
       },
       {
+        "kind": "Import",
+        "name": "AB2CommonIOS",
+        "printedName": "AB2CommonIOS",
+        "declKind": "Import",
+        "moduleName": "ABAdKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ABNative",
         "printedName": "ABNative",
@@ -4166,14 +4213,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADAdLoader",
-                "printedName": "GoogleMobileAds.GADAdLoader",
+                "name": "AdLoader",
+                "printedName": "GoogleMobileAds.AdLoader",
                 "usr": "c:objc(cs)GADAdLoader"
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADNativeAd",
-                "printedName": "GoogleMobileAds.GADNativeAd",
+                "name": "NativeAd",
+                "printedName": "GoogleMobileAds.NativeAd",
                 "usr": "c:objc(cs)GADNativeAd"
               }
             ],
@@ -4202,8 +4249,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADAdLoader",
-                "printedName": "GoogleMobileAds.GADAdLoader",
+                "name": "AdLoader",
+                "printedName": "GoogleMobileAds.AdLoader",
                 "usr": "c:objc(cs)GADAdLoader"
               },
               {
@@ -4846,8 +4893,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               },
               {
@@ -4865,6 +4912,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -4882,8 +4931,8 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "GADFullScreenPresentingAd",
-                "printedName": "any GoogleMobileAds.GADFullScreenPresentingAd",
+                "name": "FullScreenPresentingAd",
+                "printedName": "any GoogleMobileAds.FullScreenPresentingAd",
                 "usr": "c:objc(pl)GADFullScreenPresentingAd"
               }
             ],
@@ -4895,6 +4944,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
+              "Custom",
               "AccessControl"
             ],
             "isFromExtension": true,
@@ -5101,21 +5152,21 @@
     {
       "filePath": "\/Users\/kunjm2\/Documents\/iOS Project\/ABAdKit\/ABAdKit\/Public\/Ads SetUp\/ABNativeAd\/Helper\/ABNative.swift",
       "kind": "Array",
-      "offset": 183,
+      "offset": 200,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kunjm2\/Documents\/iOS Project\/ABAdKit\/ABAdKit\/Public\/Ads SetUp\/ABNativeAd\/Helper\/ABNative.swift",
       "kind": "IntegerLiteral",
-      "offset": 256,
+      "offset": 270,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/kunjm2\/Documents\/iOS Project\/ABAdKit\/ABAdKit\/Public\/Ads SetUp\/ABNativeAd\/Helper\/ABNative.swift",
       "kind": "BooleanLiteral",
-      "offset": 294,
+      "offset": 308,
       "length": 5,
       "value": "false"
     },
