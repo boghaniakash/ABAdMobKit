@@ -2287,6 +2287,66 @@
           },
           {
             "kind": "Function",
+            "name": "requestTracking",
+            "printedName": "requestTracking(complition:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AB2CommonIOS7ABAlertO15requestTracking10complitionyyyc_tFZ",
+            "mangledName": "$s12AB2CommonIOS7ABAlertO15requestTracking10complitionyyyc_tFZ",
+            "moduleName": "AB2CommonIOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkTrackingPermission",
+            "printedName": "checkTrackingPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AB2CommonIOS7ABAlertO23checkTrackingPermissionSbyFZ",
+            "mangledName": "$s12AB2CommonIOS7ABAlertO23checkTrackingPermissionSbyFZ",
+            "moduleName": "AB2CommonIOS",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "hideKeyboard",
             "printedName": "hideKeyboard()",
             "children": [
@@ -8290,14 +8350,14 @@
     {
       "filePath": "\/Users\/kunjm2\/Documents\/Frameworks\/AB2CommonIOS\/AB2CommonIOS\/Public\/Utitlities\/ABAlert\/ABAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 4949,
+      "offset": 5279,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/kunjm2\/Documents\/Frameworks\/AB2CommonIOS\/AB2CommonIOS\/Public\/Utitlities\/ABAlert\/ABAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 5055,
+      "offset": 5385,
       "length": 2,
       "value": "13"
     },

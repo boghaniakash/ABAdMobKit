@@ -179,6 +179,8 @@ public enum ABAlert {
   public static func open(_ urlString: Swift.String, fallbackURL: Swift.String? = nil)
   public static func openMail(to mail: Swift.String)
   public static func rateApp()
+  public static func requestTracking(complition: @escaping () -> Swift.Void)
+  public static func checkTrackingPermission() -> Swift.Bool
   public static func hideKeyboard()
 }
 public enum ABHaptic {
